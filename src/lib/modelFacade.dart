@@ -10,6 +10,15 @@
 /// so that that it can walk up looking for a value.
 
 
+//TASK: Implment simple property bag,S,W,2019-11-22
+//TASK: Load Ruleset,M,W,2019-11-22
+//TASK: Implment rule set matching,M,W,2019-11-22
+//TASK: Scope cascade,M,W,2019-11-22
+//TASK: Use data type defaults,M,W,2019-11-22
+//TASK: Implment String transformers,M,W,2019-11-22
+//TASK: Multiple ruleset files,M,W,2019-11-22
+
+
    /* The rule is applied to an object if one of its selectors
      matches that object */ 
   class Rule {

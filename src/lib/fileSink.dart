@@ -16,3 +16,11 @@
  * 6. Backup original file if required. 
  * **/
 
+//TASK: Write contents to new file,S,W,2019-11-22
+//TASK: Only write to existing file if contents have changed,S,W,2019-11-22
+//TASK: Protect custom code blocks,M,W,2019-11-22
+//TASK: Insert codegen blocks,M,W,2019-11-22
+//TASK: Allow custom code blocks to be initialised,M,W,2019-11-22
+//TASK: Backup original file if required,M,W,2019-11-22
+
+

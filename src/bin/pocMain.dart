@@ -1,5 +1,5 @@
-import 'package:poc/src.dart' as src;
+import 'package:poc/driver.dart' as driver;
 
 main(List<String> arguments) {
-  print('Hello world: ${src.calculate()}!');
+  print('Hello world: ${driver.calculate()}!');
 }
