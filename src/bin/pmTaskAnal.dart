@@ -197,7 +197,7 @@ class Task {
     }
     logFile.writeln();
     logFile.writeln('${pad('              ',72)}'+displayPair(totalDone, totalSize));
-    logFile.writeln('Velocity = ${((totalDone/totalSize)*100/timeSpentRatio()).round()}% '+
+    logFile.writeln('Velocity = ${((totalDone/totalSize)*100/timeSpentRatio()).round()}% '
         'needed to finish by ${ENDDATE.toString().substring(0,10)}');
     logFile.close();
   } // saveCarPark
