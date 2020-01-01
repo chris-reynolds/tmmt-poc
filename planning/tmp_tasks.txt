@@ -3,12 +3,18 @@
 ./planning/poc_plan.md://TASK: Setup.Design regression execution env,M,W,2019-11-22
 ./planning/poc_plan.md://TASK: Setup.Pm Tracking daily job,S,I,2019-11-22,2019-11-22
 ./planning/poc_plan.md://TASK: Setup.Integrate bug tracking with testing,M,W,2019-11-22
-./src/lib/fileSink.dart://TASK: Write contents to new file,S,W,2019-11-22
-./src/lib/fileSink.dart://TASK: Only write to existing file if contents have changed,S,W,2019-11-22
-./src/lib/fileSink.dart://TASK: Protect custom code blocks,M,W,2019-11-22
-./src/lib/fileSink.dart://TASK: Insert codegen blocks,M,W,2019-11-22
-./src/lib/fileSink.dart://TASK: Allow custom code blocks to be initialised,M,W,2019-11-22
-./src/lib/fileSink.dart://TASK: Backup original file if required,M,W,2019-11-22
+./src/lib/outputFile.dart://TASK: Write contents to new file,S,T,2019-11-22,2019-12-29
+./src/lib/outputFile.dart://TASK: Only write to existing file if contents have changed,S,T,2019-11-22,2019-12-29
+./src/lib/outputFile.dart://TASK: Protect custom code blocks,M,T,2019-11-22,2019-12-29
+./src/lib/outputFile.dart://TASK: Insert codegen blocks,M,W,2019-11-22
+./src/lib/outputFile.dart://TASK: Allow custom code blocks to be initialised,M,W,2019-11-22
+./src/lib/outputFile.dart://TASK: Backup original file if required,M,W,2019-11-22
+./src/lib/macroProcessor.dart://TASK: Load template from template parameter,S,W,2019-11-22
+./src/lib/macroProcessor.dart://TASK: Build lines array with sources,M,W,2019-11-22
+./src/lib/macroProcessor.dart://TASK: Process template with facade substitution,M,W,2019-11-22
+./src/lib/macroProcessor.dart://TASK: Implement static file include,M,W,2019-11-22
+./src/lib/macroProcessor.dart://TASK: Implement loop,L,W,2019-11-22
+./src/lib/macroProcessor.dart://TASK: Implement macro,L,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Implment simple property bag,S,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Load Ruleset,M,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Implment rule set matching,M,W,2019-11-22
@@ -16,9 +22,3 @@
 ./src/lib/modelFacade.dart://TASK: Use data type defaults,M,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Implment String transformers,M,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Multiple ruleset files,M,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Load template from template parameter,S,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Build lines array with sources,M,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Process template with facade substitution,M,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Implement static file include,M,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Implement loop,L,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Implement macro,L,W,2019-11-22

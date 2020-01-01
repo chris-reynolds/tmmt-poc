@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c241b0fc-1481-4834-9c64-386edc4acaaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/fileSink.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/outputFile.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fileSink.config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tmmt-poc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tmmt-poc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planning/metrics.log" beforeDir="false" afterPath="$PROJECT_DIR$/planning/metrics.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planning/pm_tracker.ps" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/planning/tmp_tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/planning/tmp_tasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/pmTaskAnal.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/pmTaskAnal.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/fileSink.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bin/fileSink.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="140">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -94,10 +82,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
-    <option name="y" value="23" />
-    <option name="width" value="1302" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="303" />
+    <option name="width" value="1280" />
     <option name="height" value="723" />
   </component>
   <component name="ProjectView">
@@ -224,10 +211,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <frame x="0" y="303" width="1280" height="723" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20597738" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20597738" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -237,7 +224,7 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49919224" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49919224" visible="true" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49919224" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50080776" side_tool="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Dart Analysis" order="6" weight="0.32894737" />
@@ -294,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/fileSink.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="140">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
