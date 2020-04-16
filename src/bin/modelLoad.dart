@@ -18,10 +18,10 @@ class MNode {
 dynamic deepWrap(dynamic origin) {
   var result;
  if (origin is Map) {
-    var newMap = (origin as Map).map((k1,v1)=>MapEntry(k1, deepWrap(v1)));
+    var newMap = origin.map((k1,v1)=>MapEntry(k1, deepWrap(v1)));
     result = MNode(newMap);
   }else   if (origin is Iterable) {
-   result = (origin as Iterable).map((n)=>deepWrap(n)).toList();
+   result = origin.map((n)=>deepWrap(n)).toList();
  } else {
     result = origin;
   }

@@ -2,19 +2,19 @@
 // author: Chris Reynolds
 // date: 21st November 2019
 
-/**  Purpose of this file
- * This takes a stream of text from stdin and
- * executes any embedded commands. 
- * In general the text stream is written to the
- * nominated file.
- * Requirement Statments:
- * 1. Write contents to new file.
- * 2. Only write to existing file if contents have changed.
- * 3. Protect custom code blocks.
- * 4. Insert codegen blocks.
- * 5. Allow custom code blocks to be initialised.
- * 6. Backup original file if required. 
- * **/
+/// *  Purpose of this file
+///  * This takes a stream of text from stdin and
+///  * executes any embedded commands. 
+///  * In general the text stream is written to the
+///  * nominated file.
+///  * Requirement Statments:
+///  * 1. Write contents to new file.
+///  * 2. Only write to existing file if contents have changed.
+///  * 3. Protect custom code blocks.
+///  * 4. Insert codegen blocks.
+///  * 5. Allow custom code blocks to be initialised.
+///  * 6. Backup original file if required. 
+///  * *
 
 //TASK: Write contents to new file,S,T,2019-11-22,2019-12-29
 //TASK: Only write to existing file if contents have changed,S,T,2019-11-22,2019-12-29
@@ -59,7 +59,7 @@ class OutputFile {
   void add(String s) => _contents+= s+'\n';
 
   Map<String,String> extractCodeBlocks(String allLines) {
-    Map<String,String> result = {};
+    var result = {};
     var currentBlockName = '';
     allLines.split(endMarker).forEach((codeBlock) {
       var bits = codeBlock.split(startMarker);
