@@ -1,15 +1,16 @@
 name: poc
 description: Proof of Concept - TMMT
 # version: 1.0.0
-# homepage: https://www.example.com
+# homepage: https://www.retired.kiwi
 # author: Chris Reynolds <chrisr@retired.kiwi>
 
 environment:
-  sdk: '>=2.5.0 <3.0.0'
+  sdk: '>=2.7.0 <3.0.0'
 
 dependencies:
   path: ^1.6.0
   yaml: ^2.2.0
+  mustache_template: ^1.0.0+1
 
 dev_dependencies:
   pedantic: ^1.8.0
