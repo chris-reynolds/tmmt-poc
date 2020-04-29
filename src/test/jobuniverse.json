@@ -4,7 +4,7 @@
 "name":"C:\\projects\\jobuniverse\\analysis\\ju.EAP",
 "packages":[
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Actors",
     "rowID":"{B1A49BF9-D350-464a-BDFD-E7BA809EC2DA}",
     "module":"Actors",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Advertiser Use Cases",
     "rowID":"{9F8A5231-DBDB-11d6-A44F-005004D480E1}",
     "module":"Advertiser Use Cases",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"AdvertiserUI",
     "rowID":"{56CE992A-9441-425a-8544-62CC230E2B4E}",
     "module":"AdvertiserUI",
@@ -31,7 +31,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Business Process Model",
     "rowID":"{F01CC672-00E2-4e08-99AA-4EFE4DF1E976}",
     "module":"Business Process Model",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Common Datatypes",
     "rowID":"{30B65CB2-B8A8-4b7d-B63B-3268871C1C05}",
     "module":"Common Datatypes",
@@ -49,7 +49,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Common Infrastructure",
     "rowID":"{F3FA209E-BD99-4fdb-958C-BF5A97C556D8}",
     "module":"Common Infrastructure",
@@ -58,7 +58,7 @@
     },
     "dataTypes":[
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Boolean",
         "rowID":"{2D2C76A3-1FBC-4d57-8472-BAC61E5EA215}",
         "widget":"TDBCheckbox",
@@ -66,7 +66,7 @@
         "dDLType":"smallint"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Currency",
         "rowID":"{29706457-5834-4410-934C-42A134E2D012}",
         "widget":"TDBEdit",
@@ -74,7 +74,7 @@
         "dDLType":"Float"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Date",
         "rowID":"{4C40D941-4C2C-4432-8AE2-16859A04A8F4}",
         "widget":"TDatePicker",
@@ -82,7 +82,7 @@
         "dDLType":"Datetime"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Datetime",
         "rowID":"{E42855B8-9589-4ad2-8137-1D45C9E63443}",
         "widget":"TDatetimePicker",
@@ -90,7 +90,7 @@
         "dDLType":"Datetime"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Description",
         "rowID":"{278348FB-4AC7-493b-A86B-514E7BAE7D63}",
         "widget":"TDBEdit",
@@ -98,14 +98,14 @@
         "dDLType":"varchar()"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Descriptor",
         "rowID":"{154D8A41-45DE-4b00-98DB-7D4E1D506556}",
         "progType":"String",
         "dDLType":"varchar(50)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Descriptor",
         "rowID":"{10067F50-BF40-4624-9033-924AD637DD6F}",
         "widget":"TEdit",
@@ -113,7 +113,7 @@
         "dDLType":"varchar(50)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Email",
         "rowID":"{E97CB25D-6DE3-44fe-BFCE-3EC36973D377}",
         "widget":"TDBEdit",
@@ -121,7 +121,7 @@
         "dDLType":"varchar(60)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Filename",
         "rowID":"{04F78AB2-EEC8-41df-BC55-8851DDB6F184}",
         "widget":"TFilebox",
@@ -129,7 +129,7 @@
         "dDLType":"varchar(100)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Float",
         "rowID":"{8E96BD07-D6AC-4461-BEC3-8381C448732B}",
         "widget":"TDBEdit",
@@ -137,7 +137,7 @@
         "dDLType":"Float"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"HTML",
         "rowID":"{CA6E3AEC-ED0F-4b3c-87CE-CD47DE8082C7}",
         "widget":"TRichText",
@@ -145,7 +145,7 @@
         "dDLType":"varchar()"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Image",
         "rowID":"{697A380C-962E-4659-967A-34601D153511}",
         "widget":"TPicture",
@@ -153,7 +153,7 @@
         "dDLType":"longBlob"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Int",
         "rowID":"{A4059D6F-F16B-4978-8437-BBB12602B43D}",
         "widget":"TDBEdit",
@@ -161,7 +161,7 @@
         "dDLType":"INT"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Integer",
         "rowID":"{DA8A5AFD-D2C7-494c-A16D-FD276459C0E7}",
         "widget":"TDBEdit",
@@ -169,7 +169,7 @@
         "dDLType":"INT"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Key",
         "rowID":"{BEDDDE2D-9360-444b-9E89-4C3EC2639B45}",
         "widget":"TDBCombobox",
@@ -177,7 +177,7 @@
         "dDLType":"INT"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Memo",
         "rowID":"{9A2DB41E-397B-4cb5-8183-DB55A27B1811}",
         "widget":"TextArea",
@@ -185,7 +185,7 @@
         "dDLType":"lonttext"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Password",
         "rowID":"{7B378787-0F33-4148-B80C-0619AEB0EFE2}",
         "widget":"TPasswordEdit",
@@ -193,7 +193,7 @@
         "dDLType":"varchar(40)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Percent",
         "rowID":"{1D3CEFF3-457F-4b9e-87A2-CD5E97E7ED8C}",
         "widget":"TDBNumEdit",
@@ -201,7 +201,7 @@
         "dDLType":"Float"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"PhoneNumber",
         "rowID":"{EA1AB915-022C-4a9d-AA9F-676BB32A2339}",
         "widget":"TEdit",
@@ -209,7 +209,7 @@
         "dDLType":"varchar(30)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"RichText",
         "rowID":"{A86D47DE-26B9-42e9-9785-DB33495511E9}",
         "widget":"TDBRichText",
@@ -217,14 +217,14 @@
         "dDLType":"Text"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Rule",
         "rowID":"{00D532B7-DEA3-4e14-8B35-F3F2F20E1FF3}",
         "progType":"String",
         "dDLType":"varchar(250)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"SecretString",
         "rowID":"{EEDE70D9-7BFA-44ad-B9D2-C3B500D3A602}",
         "widget":"TEdit",
@@ -232,7 +232,7 @@
         "dDLType":"varchar(50)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"String",
         "rowID":"{3ECF6CC9-0222-4f9f-9128-636FB4E625C7}",
         "widget":"TDBEdit",
@@ -240,7 +240,7 @@
         "dDLType":"varchar()"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Text",
         "rowID":"{5B6C3691-B700-4bee-9F0D-0352FC66E2E8}",
         "widget":"TDBEdit",
@@ -248,7 +248,7 @@
         "dDLType":"varchar()"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"TextList",
         "rowID":"{1B17BFDE-A9D6-4128-86FB-8701AD56EA83}",
         "widget":"TListBox",
@@ -256,7 +256,7 @@
         "dDLType":"varchar(255)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Time",
         "rowID":"{7F56AC09-C726-4f7c-9B6E-A823CACD19A6}",
         "widget":"TDatetimePicker",
@@ -264,7 +264,7 @@
         "dDLType":"Datetime"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"URL",
         "rowID":"{8B72C10C-1F87-4d7f-8778-3F35B4FFE416}",
         "widget":"TDBEdit",
@@ -272,7 +272,7 @@
         "dDLType":"varchar(150)"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Video",
         "rowID":"{BCC46809-3F7C-4fb1-8AD0-5A9E821FD297}",
         "widget":"TVideo",
@@ -280,7 +280,7 @@
         "dDLType":"Blob"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"YesNo",
         "rowID":"{B16A7A58-75E0-48fe-A408-2B0D119271A8}",
         "widget":"TDBCheckbox",
@@ -290,7 +290,7 @@
     ]
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Data Administrator Uses Cases",
     "rowID":"{9F8A5266-DBDB-11d6-A44F-005004D480E1}",
     "module":"Data Administrator Uses Cases",
@@ -299,7 +299,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"DataAdminUI",
     "rowID":"{A567C3EF-9C3F-426b-859B-687B1608C904}",
     "module":"DataAdminUI",
@@ -308,7 +308,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Formal Requirements",
     "rowID":"{8B65BB22-EDA1-4d00-9D5B-2E2541E00959}",
     "module":"Formal Requirements",
@@ -317,7 +317,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Guest Use Cases",
     "rowID":"{70C1C355-DC8E-11d6-A44F-005004D480E1}",
     "module":"Guest Use Cases",
@@ -326,7 +326,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"GuestUI",
     "rowID":"{26E5BE83-A44C-4cf9-BD81-250D62F2DDF8}",
     "module":"GuestUI",
@@ -335,7 +335,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Infrastructure Datatypes",
     "rowID":"{E94E6B70-8B37-43b1-8BAB-0C8158B459C5}",
     "module":"Infrastructure Datatypes",
@@ -344,7 +344,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"JobSeeker Use Cases",
     "rowID":"{9F8A5230-DBDB-11d6-A44F-005004D480E1}",
     "module":"JobSeeker Use Cases",
@@ -353,7 +353,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"JobSeekerUI",
     "rowID":"{5E62E3F6-E08A-11d6-A44F-005004D480E1}",
     "module":"JobSeekerUI",
@@ -362,7 +362,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"JobUniverse",
     "rowID":"{27E213F6-995E-46ca-951D-A35A31694BCD}",
     "stereoType":"Product",
@@ -374,7 +374,7 @@
     },
     "classes":[
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Batch Upload",
         "rowID":"{F453AF19-19FC-49a6-AFBC-9A29F3638B81}",
         "caption":"Batch Upload",
@@ -387,7 +387,7 @@
         "tableName":"juBatchUpload",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Filename",
             "rowID":"{DC7CA910-DBB2-4122-90B0-597F95A2131B}",
             "typeDef":"Filename",
@@ -402,7 +402,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"FileContents",
             "rowID":"{743FE316-B54B-4559-88E0-88117E1D2406}",
             "typeDef":"Memo",
@@ -415,7 +415,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"InsertCount",
             "rowID":"{16AEE3A0-9880-464c-A647-34C047802A71}",
             "typeDef":"int",
@@ -431,7 +431,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"DeleteCount",
             "rowID":"{9DCB06B0-C660-4030-B813-3A47E7409C47}",
             "typeDef":"int",
@@ -447,7 +447,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"UpdateCount",
             "rowID":"{DA820058-7C59-4e72-94E4-347560C9E5B7}",
             "typeDef":"int",
@@ -463,7 +463,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ErrorCount",
             "rowID":"{D1D5A622-C2E9-4416-ABB5-065E3A59A8D9}",
             "typeDef":"int",
@@ -479,7 +479,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ErrorEmail",
             "rowID":"{2E2B4D0E-2F93-435e-A875-59CFE357B944}",
             "typeDef":"email",
@@ -497,7 +497,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ErrorMessage",
             "rowID":"{E863C5C8-3437-4b00-A4D7-2A6C5506ECB8}",
             "typeDef":"Memo",
@@ -513,7 +513,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{8464D18F-DCFB-446f-BA90-5C2CCF10CE62}_AA",
             "farID":"{8464D18F-DCFB-446f-BA90-5C2CCF10CE62}_BB",
             "visibility":"Public",
@@ -524,7 +524,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{2366E9F7-6F4D-4236-AEB1-B6ADDD12A92B}_AA",
             "farID":"{2366E9F7-6F4D-4236-AEB1-B6ADDD12A92B}_BB",
             "visibility":"Public",
@@ -542,7 +542,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"ChargeSchedule",
         "rowID":"{42ACE26B-91C9-48e7-85B8-69A4A2A6CB6B}",
         "caption":"ChargeSchedule",
@@ -555,7 +555,7 @@
         "tableName":"juChargeSchedule",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"TotalValue",
             "rowID":"{705D25BD-43ED-4769-9086-AA2FAB5B68C9}",
             "typeDef":"Currency",
@@ -571,7 +571,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{17ADBCED-2F86-43c5-99EE-44C3E55E4D06}_AA",
             "farID":"{17ADBCED-2F86-43c5-99EE-44C3E55E4D06}_BB",
             "visibility":"Public",
@@ -589,7 +589,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Contract",
         "rowID":"{F7FC150F-D645-11d6-A44E-005004D480E1}",
         "caption":"Contract",
@@ -602,7 +602,7 @@
         "tableName":"juContract",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"StartDate",
             "rowID":"{5E62E213-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Date",
@@ -616,7 +616,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ExpiryDate",
             "rowID":"{5E62E212-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Date",
@@ -630,7 +630,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"OsJobCount",
             "rowID":"{120EEC7B-7D3A-45b6-8F32-2D0A7575CFCD}",
             "typeDef":"Integer",
@@ -644,7 +644,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MonthlyPrice",
             "rowID":"{5E62E215-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Currency",
@@ -658,7 +658,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SinglePrice",
             "rowID":"{5E62E246-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Currency",
@@ -672,7 +672,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CancellationDate",
             "rowID":"{685979A8-8059-40ef-9394-82BD5715C06B}",
             "typeDef":"Datetime",
@@ -686,7 +686,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsCredit",
             "rowID":"{5E62E243-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -702,7 +702,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CancellationReason",
             "rowID":"{AC0053E3-FA98-46ee-9DD4-5B4D66F4D7BE}",
             "typeDef":"String",
@@ -717,7 +717,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsOnhold",
             "rowID":"{FF8E76F5-AEBA-4b5a-8453-94593AA5484C}",
             "typeDef":"YesNo",
@@ -733,7 +733,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{8E7CC787-361C-41b3-8B51-E8AE2508E783}_AA",
             "farID":"{8E7CC787-361C-41b3-8B51-E8AE2508E783}_BB",
             "visibility":"Public",
@@ -744,7 +744,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{77A0636A-2006-4538-9586-04DC5F40B2FE}_AA",
             "farID":"{77A0636A-2006-4538-9586-04DC5F40B2FE}_BB",
             "visibility":"Public",
@@ -755,7 +755,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1511-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1511-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -766,7 +766,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{EE583A38-F8D3-4ba4-A69D-820DDEB9568B}_AA",
             "farID":"{EE583A38-F8D3-4ba4-A69D-820DDEB9568B}_BB",
             "visibility":"Public",
@@ -777,7 +777,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{7CCBA869-60AC-40bd-96B4-8AB04B849F16}_BB",
             "farID":"{7CCBA869-60AC-40bd-96B4-8AB04B849F16}_AA",
             "visibility":"Public",
@@ -788,7 +788,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1512-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1512-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -801,7 +801,7 @@
         ],
         "operations":[
           {
-            "@Type":"TMaxOperation",
+            "@Type":"Operation",
             "name":"makeInactive",
             "rowID":"",
             "documentation":"This will transfer any jobs to an active recruiter",
@@ -818,7 +818,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Contract Option",
         "rowID":"{D2E2AD9C-3688-4527-8258-9ECC47F73F9F}",
         "caption":"Contract Option",
@@ -831,7 +831,7 @@
         "tableName":"juContractOption",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Price",
             "rowID":"{6A2B70D2-FC15-4c2f-B332-9380B4219354}",
             "typeDef":"Currency",
@@ -847,7 +847,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{8E7CC787-361C-41b3-8B51-E8AE2508E783}_BB",
             "farID":"{8E7CC787-361C-41b3-8B51-E8AE2508E783}_AA",
             "visibility":"Public",
@@ -858,7 +858,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{C3F69995-1894-4349-82E6-5C3D9D3F3375}_BB",
             "farID":"{C3F69995-1894-4349-82E6-5C3D9D3F3375}_AA",
             "visibility":"Public",
@@ -875,7 +875,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Contract Type",
         "rowID":"{9CE23034-907B-45cb-A16B-6A4DD2B0E3AF}",
         "caption":"Contract Type",
@@ -888,7 +888,7 @@
         "tableName":"juContractType",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{2C328160-987E-4e53-A4F9-3CD8D44770BC}",
             "typeDef":"Descriptor",
@@ -907,7 +907,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsPublic",
             "rowID":"{DC6EDF45-44C1-48b4-9603-8712FD336F55}",
             "typeDef":"YesNo",
@@ -921,7 +921,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"JobCount",
             "rowID":"{1E663531-DF3B-40d3-BC73-B271FFF98258}",
             "typeDef":"int",
@@ -935,7 +935,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MonthCount",
             "rowID":"{818099B5-C338-4941-8F4B-B3377E6962CE}",
             "typeDef":"int",
@@ -949,7 +949,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MonthlyPrice",
             "rowID":"{D088B691-3FE4-4d58-8A4C-56BEE5F8825E}",
             "typeDef":"Currency",
@@ -963,7 +963,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SetupPrice",
             "rowID":"{7F6F1840-9158-42ef-ACDF-64A5B4FD47BC}",
             "typeDef":"Currency",
@@ -977,7 +977,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"AdvertLength",
             "rowID":"{8BF233B1-5160-4c6a-B935-5AD460C06824}",
             "typeDef":"int",
@@ -991,7 +991,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SecurityLink",
             "rowID":"{ADFC6AB1-063A-4c20-A2F4-1FD822B07381}",
             "typeDef":"String",
@@ -1006,7 +1006,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsInactive",
             "rowID":"{6B5DB501-B132-4b8c-A6AB-EBF641749CAC}",
             "typeDef":"Boolean",
@@ -1021,7 +1021,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{77A0636A-2006-4538-9586-04DC5F40B2FE}_BB",
             "farID":"{77A0636A-2006-4538-9586-04DC5F40B2FE}_AA",
             "visibility":"Public",
@@ -1032,7 +1032,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{4584F70E-C32D-432a-82C1-A805AEEAFEDC}_AA",
             "farID":"{4584F70E-C32D-432a-82C1-A805AEEAFEDC}_BB",
             "visibility":"Public",
@@ -1048,7 +1048,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Country",
         "rowID":"{D0A7B4CC-5684-405c-8816-7F0C6DB459A7}",
         "caption":"Country",
@@ -1061,7 +1061,7 @@
         "tableName":"juCountry",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{D445DBA5-99F8-4bff-99D9-BC8038830FFD}",
             "typeDef":"Descriptor",
@@ -1081,7 +1081,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{13621A6D-2CF2-4d11-A158-643F2A4D6F05}_BB",
             "farID":"{13621A6D-2CF2-4d11-A158-643F2A4D6F05}_AA",
             "visibility":"Public",
@@ -1092,7 +1092,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{90FD8268-6423-4c3d-91B2-FF73AC8D0E87}_BB",
             "farID":"{90FD8268-6423-4c3d-91B2-FF73AC8D0E87}_AA",
             "visibility":"Public",
@@ -1103,7 +1103,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{CF76B21A-78AC-408d-97A6-1215DC58FA9C}_BB",
             "farID":"{CF76B21A-78AC-408d-97A6-1215DC58FA9C}_AA",
             "visibility":"Public",
@@ -1120,7 +1120,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Email",
         "rowID":"{9984C2A5-D124-40ab-8600-B8678C633889}",
         "caption":"Email",
@@ -1133,7 +1133,7 @@
         "tableName":"juEmail",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Sender",
             "rowID":"{41C525AD-8EBE-4a9c-86B2-624E8AA179FE}",
             "typeDef":"Email",
@@ -1148,7 +1148,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Receiver",
             "rowID":"{E940584D-7B44-48c9-BA50-87864769D64E}",
             "typeDef":"Email",
@@ -1163,7 +1163,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Subject",
             "rowID":"{76B0FAE2-A817-4871-8DC3-E2DEDBC63B0E}",
             "typeDef":"String",
@@ -1178,7 +1178,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Body",
             "rowID":"{A282CCEE-1576-4c6d-82C7-9B98DDCB1762}",
             "typeDef":"Memo",
@@ -1192,7 +1192,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SentDate",
             "rowID":"{65425DF1-97CC-405e-B0F4-AC597ADE3150}",
             "typeDef":"Datetime",
@@ -1206,7 +1206,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Headers",
             "rowID":"{7CFE0014-515D-4220-9538-53DE57DAF6A2}",
             "typeDef":"String",
@@ -1227,7 +1227,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Employer",
         "rowID":"{F7FC14ED-D645-11d6-A44E-005004D480E1}",
         "caption":"Employer",
@@ -1240,7 +1240,7 @@
         "tableName":"juEmployer",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{5E62E20C-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Descriptor",
@@ -1259,7 +1259,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Address",
             "rowID":"{E3AEBBF1-2B97-4ca5-ABB6-E9F1796375B9}",
             "typeDef":"String",
@@ -1276,7 +1276,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CityorTown",
             "rowID":"{EEE481A2-521D-4a33-8F11-8B80F945C156}",
             "typeDef":"String",
@@ -1293,7 +1293,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Postcode",
             "rowID":"{1152BF27-938C-4dd7-BA2C-1EB5FA619E1D}",
             "typeDef":"String",
@@ -1310,7 +1310,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Fax",
             "rowID":"{5E62E3AE-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"PhoneNumber",
@@ -1329,7 +1329,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"URL",
             "rowID":"{5E62E20D-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"URL",
@@ -1347,7 +1347,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"RedirectionURL",
             "rowID":"{A5035FBC-3639-4507-A93C-4E99DCF6F60D}",
             "typeDef":"URL",
@@ -1363,7 +1363,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Profile",
             "rowID":"{5E62E20E-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"URL",
@@ -1378,7 +1378,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsAgency",
             "rowID":"{B6D9B7A7-3906-4e29-9B65-1199E1358928}",
             "typeDef":"YesNo",
@@ -1396,7 +1396,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ApplicationEmail",
             "rowID":"{5E62E251-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Email",
@@ -1414,7 +1414,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"EmailSubjectLine",
             "rowID":"{5E62E252-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -1429,7 +1429,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"LogoLarge",
             "rowID":"{5E62E34D-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"URL",
@@ -1444,7 +1444,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"LogoSmall",
             "rowID":"{794F1EAC-1F3E-4763-9355-3B087A1A7C56}",
             "typeDef":"Image",
@@ -1458,7 +1458,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsInactive",
             "rowID":"{5E62E21B-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -1474,7 +1474,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsUploadActive",
             "rowID":"{F6112DBE-99F5-4621-83D7-F987FE5747BA}",
             "typeDef":"YesNo",
@@ -1491,7 +1491,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"UploadWatchDirectory",
             "rowID":"{D7AF7959-4931-4d7b-A234-37825814E3ED}",
             "typeDef":"URL",
@@ -1509,7 +1509,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"UploadEmail",
             "rowID":"{29FFCD0C-5456-4d5f-8200-2123248C4387}",
             "typeDef":"Email",
@@ -1527,7 +1527,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Introduction",
             "rowID":"{5D1D721C-2B3C-4b10-AFB6-E133942248E5}",
             "typeDef":"string",
@@ -1545,7 +1545,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"PaymentEngineCode",
             "rowID":"{338104A3-3464-431d-B8DB-0AC32AAD2CE7}",
             "typeDef":"String",
@@ -1562,7 +1562,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"AllowCredit",
             "rowID":"{F035865A-C062-456a-BDFD-B4E2626DAAAE}",
             "typeDef":"YesNo",
@@ -1579,7 +1579,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"AgencyDiscount",
             "rowID":"{A8C4CC81-D87E-4ba0-BE99-CC89BEDEE7EE}",
             "typeDef":"Percent",
@@ -1598,7 +1598,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{8464D18F-DCFB-446f-BA90-5C2CCF10CE62}_BB",
             "farID":"{8464D18F-DCFB-446f-BA90-5C2CCF10CE62}_AA",
             "visibility":"Public",
@@ -1609,7 +1609,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1511-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1511-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -1620,7 +1620,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{13621A6D-2CF2-4d11-A158-643F2A4D6F05}_AA",
             "farID":"{13621A6D-2CF2-4d11-A158-643F2A4D6F05}_BB",
             "visibility":"Public",
@@ -1633,7 +1633,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{12C99FED-061E-41d8-BB59-3F4B8F03F2C0}_BB",
             "farID":"{12C99FED-061E-41d8-BB59-3F4B8F03F2C0}_AA",
             "visibility":"Public",
@@ -1643,7 +1643,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5B1C345C-7459-420a-BF50-636262DE08CE}_BB",
             "farID":"{5B1C345C-7459-420a-BF50-636262DE08CE}_AA",
             "visibility":"Public",
@@ -1654,7 +1654,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{4C0ED968-4B25-492c-BFCF-9B5B9A791AFC}_BB",
             "farID":"{4C0ED968-4B25-492c-BFCF-9B5B9A791AFC}_AA",
             "visibility":"Public",
@@ -1665,7 +1665,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1500-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1500-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -1676,7 +1676,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5E62E2A3-E08A-11d6-A44F-005004D480E1}_AA",
             "farID":"{5E62E2A3-E08A-11d6-A44F-005004D480E1}_BB",
             "visibility":"Public",
@@ -1687,7 +1687,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1538-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1538-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -1704,7 +1704,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Employer History",
         "rowID":"{76CADC82-E970-45d5-A27A-FC3C1B6976DA}",
         "caption":"Employer History",
@@ -1717,7 +1717,7 @@
         "tableName":"juEmployerHistory",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SummaryDate",
             "rowID":"{BB3762CD-2411-428d-8E7F-43B6269A61AC}",
             "typeDef":"Date",
@@ -1733,7 +1733,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"JobCount",
             "rowID":"{21A9A97C-BF58-4da0-AA45-2A0524916CD7}",
             "typeDef":"int",
@@ -1747,7 +1747,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ViewCount",
             "rowID":"{CAD8F63A-4FF2-4f50-86EB-9387C63AD3E0}",
             "typeDef":"int",
@@ -1761,7 +1761,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ApplicationCount",
             "rowID":"{3BC911DB-13FF-47ee-8F00-710937B05859}",
             "typeDef":"int",
@@ -1775,7 +1775,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"AlertCount",
             "rowID":"{BFF9368C-DA88-4b62-BF29-AE35DF088B57}",
             "typeDef":"int",
@@ -1791,7 +1791,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{12C99FED-061E-41d8-BB59-3F4B8F03F2C0}_AA",
             "farID":"{12C99FED-061E-41d8-BB59-3F4B8F03F2C0}_BB",
             "visibility":"Public",
@@ -1810,7 +1810,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Error",
         "rowID":"{EA931028-FD34-411f-BBB7-FBB32734696B}",
         "caption":"Error",
@@ -1823,7 +1823,7 @@
         "tableName":"juError",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Message",
             "rowID":"{A864A6C4-A1E0-44e2-B27F-98133C301B46}",
             "typeDef":"string",
@@ -1843,7 +1843,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Filter Answer",
         "rowID":"{E4EE8473-0461-4de4-BC7F-AF1E7DDEA9B5}",
         "caption":"Filter Answer",
@@ -1856,7 +1856,7 @@
         "tableName":"juFilterAnswer",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Score",
             "rowID":"{BF27B9EA-BB9A-41a3-8E14-A777F4ACE0E2}",
             "typeDef":"float",
@@ -1869,7 +1869,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MaxScore",
             "rowID":"{7210873F-36AF-428c-814E-BF9288D30A3C}",
             "typeDef":"Integer",
@@ -1882,7 +1882,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Grade",
             "rowID":"{A8FBC33C-DF2B-4756-83D5-59A365BCC051}",
             "typeDef":"Integer",
@@ -1896,7 +1896,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"QuestionNos",
             "rowID":"{335F3933-859D-42eb-B17D-76851ACE88EE}",
             "typeDef":"String",
@@ -1912,7 +1912,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{3215C041-FF6B-46e2-9340-9D4C35D83518}_AA",
             "farID":"{3215C041-FF6B-46e2-9340-9D4C35D83518}_BB",
             "visibility":"Public",
@@ -1923,7 +1923,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5B0F905A-841A-4e27-81C3-B18709A1BA9D}_BB",
             "farID":"{5B0F905A-841A-4e27-81C3-B18709A1BA9D}_AA",
             "visibility":"Public",
@@ -1940,7 +1940,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Filter Category",
         "rowID":"{D32024A7-0002-4568-9F18-A8C91131BBEA}",
         "caption":"Filter Category",
@@ -1953,7 +1953,7 @@
         "tableName":"juFilterCategory",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{532C1DF3-3DDB-42da-982C-1C68AA53F785}",
             "typeDef":"Descriptor",
@@ -1971,7 +1971,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Pattern",
             "rowID":"{0644948B-FF05-4bea-B7A3-6FADA67F3AEA}",
             "typeDef":"String",
@@ -1986,7 +1986,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"TimeLimit",
             "rowID":"{04D4AB7E-3E50-4b38-85BF-D67C4DAFE755}",
             "typeDef":"int",
@@ -2002,7 +2002,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Quartile1",
             "rowID":"{F3190810-3F36-4110-9500-B189BCEA9240}",
             "typeDef":"Integer",
@@ -2016,7 +2016,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Quartile2",
             "rowID":"{913B18FD-305F-430c-962D-0D2C562E11F9}",
             "typeDef":"Integer",
@@ -2030,7 +2030,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Quartile3",
             "rowID":"{7ACD23A2-E1A6-4530-9E76-0D0079495511}",
             "typeDef":"Integer",
@@ -2046,7 +2046,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{3215C041-FF6B-46e2-9340-9D4C35D83518}_BB",
             "farID":"{3215C041-FF6B-46e2-9340-9D4C35D83518}_AA",
             "visibility":"Public",
@@ -2057,7 +2057,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{B85BA8BF-DE9E-4755-99FB-B9874935FCD7}_BB",
             "farID":"{B85BA8BF-DE9E-4755-99FB-B9874935FCD7}_AA",
             "visibility":"Public",
@@ -2074,7 +2074,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Filter Question",
         "rowID":"{09BDE74F-00E1-46cb-AA95-D479578F49B1}",
         "caption":"Filter Question",
@@ -2087,7 +2087,7 @@
         "tableName":"juFilterQuestion",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"QuestionText",
             "rowID":"{224820FA-8344-4f02-9E80-16B5EDF68690}",
             "typeDef":"HTML",
@@ -2101,7 +2101,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MultichoiceList",
             "rowID":"{6E6977E9-B393-4201-9C04-55B985DE5550}",
             "typeDef":"String",
@@ -2112,12 +2112,11 @@
             "taggedValues":{
               "SQLType":"varchar()",
               "VariableType":"String",
-              "Widget":"TDBEdit",
               "Widget":"TextArea"
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SortCode",
             "rowID":"{5E62E238-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Integer",
@@ -2131,7 +2130,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"RightCount",
             "rowID":"{63800A16-293D-404f-9DE8-7B561DC9EB89}",
             "typeDef":"Integer",
@@ -2145,7 +2144,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"WrongCount",
             "rowID":"{F793786F-A348-46f9-8F7C-9FC0D5A72645}",
             "typeDef":"Integer",
@@ -2159,7 +2158,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"UnansweredCount",
             "rowID":"{A8BE36C2-37BD-48f2-AAD1-7F942CD674FE}",
             "typeDef":"Integer",
@@ -2175,7 +2174,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{B85BA8BF-DE9E-4755-99FB-B9874935FCD7}_AA",
             "farID":"{B85BA8BF-DE9E-4755-99FB-B9874935FCD7}_BB",
             "visibility":"Public",
@@ -2186,7 +2185,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{61455DB8-1F5A-4c51-A6A7-CD5BCF4C62F1}_AA",
             "farID":"{61455DB8-1F5A-4c51-A6A7-CD5BCF4C62F1}_BB",
             "visibility":"Public",
@@ -2198,7 +2197,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{D6811CC9-9752-4f66-91D2-6C5657DE61A6}_AA",
             "farID":"{D6811CC9-9752-4f66-91D2-6C5657DE61A6}_BB",
             "visibility":"Public",
@@ -2216,7 +2215,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Help",
         "rowID":"{56BC3328-07FB-475c-9B93-62FE1271243A}",
         "caption":"Help",
@@ -2229,7 +2228,7 @@
         "tableName":"juHelp",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{6ADA760F-3F81-4a4c-B4CE-57677BFB073E}",
             "typeDef":"String",
@@ -2244,7 +2243,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Text",
             "rowID":"{95404F0D-4EE3-4477-8D01-7F8842DF7910}",
             "typeDef":"Memo",
@@ -2265,7 +2264,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Job",
         "rowID":"{F7FC14EB-D645-11d6-A44E-005004D480E1}",
         "caption":"Job",
@@ -2278,7 +2277,7 @@
         "tableName":"juJob",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"JobTitle",
             "rowID":"{5E62E1A9-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Descriptor",
@@ -2297,7 +2296,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"JobReference",
             "rowID":"{5E62E23A-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -2312,7 +2311,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Town",
             "rowID":"{5E62E23D-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"string",
@@ -2327,7 +2326,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Suburb",
             "rowID":"{B4B7A9B8-F44E-42d2-A927-92A52F68E946}",
             "typeDef":"string",
@@ -2342,7 +2341,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsPermanent",
             "rowID":"{5E62E36A-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -2354,7 +2353,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ContractTerm",
             "rowID":"{C62BD457-983C-48a3-90E1-1FCEA2B15C1A}",
             "typeDef":"string",
@@ -2369,7 +2368,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsFullTime",
             "rowID":"{F6BC65D1-33C2-494c-BB12-9719B6A6C787}",
             "typeDef":"String",
@@ -2381,7 +2380,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ShortDescription",
             "rowID":"{5E62E23F-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"RichText",
@@ -2395,7 +2394,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"FullDescription",
             "rowID":"{5E62E23E-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"RichText",
@@ -2409,7 +2408,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MinimumSalary",
             "rowID":"{5E62E240-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Currency",
@@ -2423,7 +2422,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MaximumSalary",
             "rowID":"{0464EA0B-FAA2-439c-B99C-3F220415FC44}",
             "typeDef":"Currency",
@@ -2437,7 +2436,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Bullet1",
             "rowID":"{5E62E264-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -2452,7 +2451,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Bullet2",
             "rowID":"{5E62E266-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -2467,7 +2466,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Bullet3",
             "rowID":"{5E62E267-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -2482,7 +2481,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ExcludeOverseas",
             "rowID":"{5E62E268-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -2496,7 +2495,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ExcludeNonCitizens",
             "rowID":"{5E62E314-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -2510,7 +2509,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IncludeDefaultText",
             "rowID":"{E29D6C4D-2090-4b8b-BF2C-D251569427D9}",
             "typeDef":"Boolean",
@@ -2524,7 +2523,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ApplicationEmail",
             "rowID":"{A14ABB7B-6C24-4712-BAA8-4DA9CFB53387}",
             "typeDef":"Email",
@@ -2539,7 +2538,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsLibrary",
             "rowID":"{82F90F52-BBBA-4e4a-8D69-F7170D865027}",
             "typeDef":"YesNo",
@@ -2553,7 +2552,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"TodayCount",
             "rowID":"{A6C35D53-B02E-4cda-B0D3-5BD3D14A59DD}",
             "typeDef":"Integer",
@@ -2567,7 +2566,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ViewCount",
             "rowID":"{F7366B21-6B12-47d1-8243-48D9BCD77D15}",
             "typeDef":"Integer",
@@ -2581,7 +2580,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"hash",
             "rowID":"{785AC0F3-FD98-4cb0-9EBB-FE0F1B650BD9}",
             "typeDef":"Integer",
@@ -2595,7 +2594,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ViewRandom",
             "rowID":"{93879547-0CDC-4191-9055-70DC17A43752}",
             "typeDef":"int",
@@ -2609,7 +2608,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"LocationList",
             "rowID":"{AC4E344E-A272-47a5-ACF4-FC11C9B737F6}",
             "typeDef":"String",
@@ -2624,7 +2623,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"AgencyID",
             "rowID":"{F5FEC14E-B7BB-4653-8DB2-AD4DA260D5E5}",
             "typeDef":"Integer",
@@ -2640,7 +2639,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{4C0ED968-4B25-492c-BFCF-9B5B9A791AFC}_AA",
             "farID":"{4C0ED968-4B25-492c-BFCF-9B5B9A791AFC}_BB",
             "visibility":"Public",
@@ -2651,7 +2650,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{61455DB8-1F5A-4c51-A6A7-CD5BCF4C62F1}_BB",
             "farID":"{61455DB8-1F5A-4c51-A6A7-CD5BCF4C62F1}_AA",
             "visibility":"Public",
@@ -2663,7 +2662,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{79EC833C-D59C-4224-AF89-4D23A988C277}_BB",
             "farID":"{79EC833C-D59C-4224-AF89-4D23A988C277}_AA",
             "visibility":"Public",
@@ -2673,7 +2672,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{37526080-2F17-4d0d-ADF3-A2C01CAEF685}_BB",
             "farID":"{37526080-2F17-4d0d-ADF3-A2C01CAEF685}_AA",
             "visibility":"Public",
@@ -2684,7 +2683,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{A83A6FF4-E2DD-47b6-B762-4D2A2061B2DD}_BB",
             "farID":"{A83A6FF4-E2DD-47b6-B762-4D2A2061B2DD}_AA",
             "visibility":"Public",
@@ -2695,7 +2694,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1509-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1509-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -2706,7 +2705,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{B29520BA-BA0F-4739-9FC7-C2D8677553E0}_BB",
             "farID":"{B29520BA-BA0F-4739-9FC7-C2D8677553E0}_AA",
             "visibility":"Public",
@@ -2717,7 +2716,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{805F5A1A-7151-4a1b-B412-6CA2C1916ABA}_BB",
             "farID":"{805F5A1A-7151-4a1b-B412-6CA2C1916ABA}_AA",
             "visibility":"Public",
@@ -2727,7 +2726,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1534-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1534-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -2738,7 +2737,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1510-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1510-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -2749,7 +2748,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC14F1-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC14F1-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -2760,7 +2759,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{55E5CCFE-35F0-4f74-8FC5-CB28BDB9BE57}_BB",
             "farID":"{55E5CCFE-35F0-4f74-8FC5-CB28BDB9BE57}_AA",
             "visibility":"Public",
@@ -2771,7 +2770,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5E62E28F-E08A-11d6-A44F-005004D480E1}_AA",
             "farID":"{5E62E28F-E08A-11d6-A44F-005004D480E1}_BB",
             "visibility":"Public",
@@ -2788,7 +2787,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Job History",
         "rowID":"{70B3425D-2092-4743-B77E-6F070E6C895B}",
         "caption":"Job History",
@@ -2801,7 +2800,7 @@
         "tableName":"juJobHistory",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SummaryDate",
             "rowID":"{6474020C-AEEE-45d5-839A-55A4A844C706}",
             "typeDef":"Date",
@@ -2818,7 +2817,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"JobTitle",
             "rowID":"{DC73623E-47CC-48a1-8E8C-D7CA2DF13603}",
             "typeDef":"String",
@@ -2833,7 +2832,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"JobReference",
             "rowID":"{748BC0A8-19A0-48f1-980C-B27A855B7584}",
             "typeDef":"String",
@@ -2848,7 +2847,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SearchCount",
             "rowID":"{1F13C50E-1623-4291-B991-592A510EB36F}",
             "typeDef":"int",
@@ -2862,7 +2861,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ViewCount",
             "rowID":"{2BA9BD0E-3AD1-410f-ABA3-E339D9418FE6}",
             "typeDef":"int",
@@ -2876,7 +2875,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ApplicationCount",
             "rowID":"{282816D2-3244-4be9-B6DE-5D76A17DADCB}",
             "typeDef":"int",
@@ -2890,7 +2889,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"AlertCount",
             "rowID":"{0ADB7AB2-7F53-4315-8720-D23111327FF0}",
             "typeDef":"int",
@@ -2906,7 +2905,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5B1C345C-7459-420a-BF50-636262DE08CE}_AA",
             "farID":"{5B1C345C-7459-420a-BF50-636262DE08CE}_BB",
             "visibility":"Public",
@@ -2917,7 +2916,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{79EC833C-D59C-4224-AF89-4D23A988C277}_AA",
             "farID":"{79EC833C-D59C-4224-AF89-4D23A988C277}_BB",
             "visibility":"Public",
@@ -2936,7 +2935,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"JobAlert",
         "rowID":"{F7FC14FB-D645-11d6-A44E-005004D480E1}",
         "caption":"JobAlert",
@@ -2949,7 +2948,7 @@
         "tableName":"juJobAlert",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"wasBounced",
             "rowID":"{5E62E22F-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -2963,7 +2962,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"BatchNo",
             "rowID":"{B9D840B9-CC7C-4ee9-9176-3F2D29E71FBE}",
             "typeDef":"Integer",
@@ -2978,7 +2977,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{37526080-2F17-4d0d-ADF3-A2C01CAEF685}_AA",
             "farID":"{37526080-2F17-4d0d-ADF3-A2C01CAEF685}_BB",
             "visibility":"Public",
@@ -2989,7 +2988,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1501-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1501-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -3006,7 +3005,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"JobApplication",
         "rowID":"{F7FC1519-D645-11d6-A44E-005004D480E1}",
         "caption":"JobApplication",
@@ -3019,7 +3018,7 @@
         "tableName":"juJobApplication",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CVFilename",
             "rowID":"{3C90B8B2-68FC-4102-9626-4F7EB97C8D5A}",
             "typeDef":"string",
@@ -3034,7 +3033,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CVLength",
             "rowID":"{0771FF86-38BE-40d0-8FC8-463BDE1D3366}",
             "typeDef":"Integer",
@@ -3048,7 +3047,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CVType",
             "rowID":"{1A505A1F-6812-41b0-B33D-C583EA8A30A7}",
             "typeDef":"string",
@@ -3063,7 +3062,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CVAttached",
             "rowID":"{5E62E22D-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Image",
@@ -3077,7 +3076,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CoveringLetter",
             "rowID":"{6CD475F9-3360-4e9a-A5B1-28437FAE1EAE}",
             "typeDef":"HTML",
@@ -3090,7 +3089,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Response",
             "rowID":"{81B47368-3B10-4620-8D32-D7428A61BA1B}",
             "typeDef":"String",
@@ -3102,7 +3101,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Redirected",
             "rowID":"{F40BA3A9-E3C3-488c-871B-2C15B277339E}",
             "typeDef":"YesNo",
@@ -3118,7 +3117,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{A83A6FF4-E2DD-47b6-B762-4D2A2061B2DD}_AA",
             "farID":"{A83A6FF4-E2DD-47b6-B762-4D2A2061B2DD}_BB",
             "visibility":"Public",
@@ -3129,7 +3128,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC151B-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC151B-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -3140,7 +3139,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{14840F2D-4E1D-4ba0-8B1E-9238CF009FB4}_BB",
             "farID":"{14840F2D-4E1D-4ba0-8B1E-9238CF009FB4}_AA",
             "visibility":"Public",
@@ -3157,7 +3156,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"JobCategory",
         "rowID":"{F7FC1508-D645-11d6-A44E-005004D480E1}",
         "caption":"JobCategory",
@@ -3170,7 +3169,7 @@
         "tableName":"juJobCategory",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{5E62E227-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Descriptor",
@@ -3189,7 +3188,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Keywords",
             "rowID":"{18D3FD00-F2C7-4c33-B8D8-F10A0C267661}",
             "typeDef":"string",
@@ -3204,7 +3203,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MinimumKeywordCount",
             "rowID":"{0A026239-7B62-407b-B34E-7749D99F71F8}",
             "typeDef":"Integer",
@@ -3218,7 +3217,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsReportable",
             "rowID":"{5E62E24D-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -3234,7 +3233,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC150A-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC150A-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -3246,7 +3245,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC150A-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC150A-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -3258,7 +3257,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1509-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1509-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -3269,7 +3268,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{CA6EF39B-10B9-4019-A634-4EC35BDE00A7}_BB",
             "farID":"{CA6EF39B-10B9-4019-A634-4EC35BDE00A7}_AA",
             "visibility":"Public",
@@ -3287,7 +3286,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"JobOption",
         "rowID":"{447E2AB9-9D9E-483a-8FF2-07A09970E0FD}",
         "caption":"JobOption",
@@ -3300,7 +3299,7 @@
         "tableName":"juJobOption",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"FromDate",
             "rowID":"{D96F52FE-2993-46a8-B5F9-96C4DD96B1BA}",
             "typeDef":"Datetime",
@@ -3314,7 +3313,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ToDate",
             "rowID":"{21BC4FA3-B2F5-4491-9080-D5709C966964}",
             "typeDef":"Datetime",
@@ -3330,7 +3329,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{B29520BA-BA0F-4739-9FC7-C2D8677553E0}_AA",
             "farID":"{B29520BA-BA0F-4739-9FC7-C2D8677553E0}_BB",
             "visibility":"Public",
@@ -3341,7 +3340,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{BAD3D926-0697-408e-811A-9F54DDF04B2E}_AA",
             "farID":"{BAD3D926-0697-408e-811A-9F54DDF04B2E}_BB",
             "visibility":"Public",
@@ -3358,7 +3357,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"JobSeeker",
         "rowID":"{F7FC14EE-D645-11d6-A44E-005004D480E1}",
         "caption":"JobSeeker",
@@ -3371,7 +3370,7 @@
         "tableName":"juJobSeeker",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{5E62E208-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Descriptor",
@@ -3390,7 +3389,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Email",
             "rowID":"{5E62E222-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Email",
@@ -3405,7 +3404,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Password",
             "rowID":"{5E62E209-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Password",
@@ -3420,7 +3419,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"HasHTMLEmail",
             "rowID":"{5E62E22E-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -3434,7 +3433,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"DoNotSolicit",
             "rowID":"{5E62E220-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -3448,7 +3447,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"LastSearch",
             "rowID":"{5E62E3DA-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Datetime",
@@ -3466,7 +3465,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"LastLogin",
             "rowID":"{56FE5EBB-AA52-44e4-BB2E-40016EB3EE19}",
             "typeDef":"Datetime",
@@ -3484,7 +3483,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsNational",
             "rowID":"{5ADE3F15-53D3-499c-B92C-201878917CF4}",
             "typeDef":"YesNo",
@@ -3498,7 +3497,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CanInterview",
             "rowID":"{879630E8-B895-4f5c-8E05-BCD342295093}",
             "typeDef":"Boolean",
@@ -3512,7 +3511,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ReactivationDate",
             "rowID":"{5E62E221-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Date",
@@ -3528,7 +3527,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CancelReason",
             "rowID":"{5E62E231-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -3543,7 +3542,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CancelDate",
             "rowID":"{5E62E223-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Date",
@@ -3557,7 +3556,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"BounceCount",
             "rowID":"{5E62E230-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"int",
@@ -3573,7 +3572,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"LastAlertDate",
             "rowID":"{AC84E28B-6237-4cda-8FAE-C944A968412F}",
             "typeDef":"Datetime",
@@ -3590,7 +3589,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"AlertFrequency",
             "rowID":"{58372252-92FF-421d-AC87-493982D74887}",
             "typeDef":"String",
@@ -3606,7 +3605,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"grade1",
             "rowID":"{A835D4BE-6D81-46d1-A70B-AEBD43CA539D}",
             "typeDef":"integer",
@@ -3620,7 +3619,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"grade2",
             "rowID":"{57475BA0-FDE2-4c7f-A81D-C92CE6374967}",
             "typeDef":"Integer",
@@ -3634,7 +3633,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"grade3",
             "rowID":"{75A66860-E7E2-4f03-B895-A17847C27878}",
             "typeDef":"Integer",
@@ -3648,7 +3647,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Address",
             "rowID":"{45B93803-4095-4942-B672-1953F77BD2C2}",
             "typeDef":"Memo",
@@ -3661,7 +3660,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Phone",
             "rowID":"{0623503B-248D-4c9b-A0BF-D0132F6E0C15}",
             "typeDef":"String",
@@ -3676,7 +3675,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"OtherSkills",
             "rowID":"{C1EB04AD-339E-4c6e-9560-993090C671C3}",
             "typeDef":"String",
@@ -3690,7 +3689,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ResponseCodes",
             "rowID":"{59FACB3C-D09D-4dd5-8C6B-712288A32121}",
             "typeDef":"String",
@@ -3707,7 +3706,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5B0F905A-841A-4e27-81C3-B18709A1BA9D}_AA",
             "farID":"{5B0F905A-841A-4e27-81C3-B18709A1BA9D}_BB",
             "visibility":"Public",
@@ -3718,7 +3717,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1501-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1501-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -3729,7 +3728,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC151B-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC151B-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -3740,7 +3739,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1505-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1505-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -3752,7 +3751,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{E9A0FBEE-7BFC-4ef4-BCCF-D4DC4AFC8A32}_BB",
             "farID":"{E9A0FBEE-7BFC-4ef4-BCCF-D4DC4AFC8A32}_AA",
             "visibility":"Public",
@@ -3762,7 +3761,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{E2182D32-821D-4b4b-8B98-FBBA4D07E468}_BB",
             "farID":"{E2182D32-821D-4b4b-8B98-FBBA4D07E468}_AA",
             "visibility":"Public",
@@ -3772,7 +3771,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{86DB9915-463D-455f-AE7B-9D68DD0A4CE0}_BB",
             "farID":"{86DB9915-463D-455f-AE7B-9D68DD0A4CE0}_AA",
             "visibility":"Public",
@@ -3783,7 +3782,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{BB77550A-67DF-4a5d-BB79-19F7299B235E}_BB",
             "farID":"{BB77550A-67DF-4a5d-BB79-19F7299B235E}_AA",
             "visibility":"Public",
@@ -3793,7 +3792,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{40D2ADD8-EDBF-4da1-B535-D8741F42F09D}_BB",
             "farID":"{40D2ADD8-EDBF-4da1-B535-D8741F42F09D}_AA",
             "visibility":"Public",
@@ -3810,7 +3809,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"JobSeekerExtra",
         "rowID":"{310E0907-758F-4053-BD4E-6D4A67FA75CB}",
         "caption":"JobSeekerExtra",
@@ -3823,7 +3822,7 @@
         "tableName":"juJobSeekerExtra",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Headshot",
             "rowID":"{A6BDB65A-FC79-4192-B797-F25BE8685D0A}",
             "typeDef":"image",
@@ -3837,7 +3836,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Video",
             "rowID":"{1A4FC8A8-CC31-440e-A146-7F2C2500157F}",
             "typeDef":"Image",
@@ -3857,7 +3856,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"JobSkillProfile",
         "rowID":"{89185361-0258-4a25-A682-B658B5CEA60D}",
         "caption":"JobSkillProfile",
@@ -3870,7 +3869,7 @@
         "tableName":"juJobSkillProfile",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Importance",
             "rowID":"{3A6728D5-7A3D-4423-B11E-80615A34253F}",
             "typeDef":"String",
@@ -3884,7 +3883,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{805F5A1A-7151-4a1b-B412-6CA2C1916ABA}_AA",
             "farID":"{805F5A1A-7151-4a1b-B412-6CA2C1916ABA}_BB",
             "visibility":"Public",
@@ -3894,7 +3893,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{DE0E0326-79DE-4625-80B7-A8FD14348893}_BB",
             "farID":"{DE0E0326-79DE-4625-80B7-A8FD14348893}_AA",
             "visibility":"Public",
@@ -3911,7 +3910,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"JobViewRequest",
         "rowID":"{F7FC151C-D645-11d6-A44E-005004D480E1}",
         "caption":"JobViewRequest",
@@ -3924,7 +3923,7 @@
         "tableName":"juJobViewRequest",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Source",
             "rowID":"{5E62E239-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"URL",
@@ -3945,7 +3944,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Location",
         "rowID":"{F7FC1503-D645-11d6-A44E-005004D480E1}",
         "caption":"Location",
@@ -3958,7 +3957,7 @@
         "tableName":"juLocation",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{5E62E228-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Descriptor",
@@ -3977,7 +3976,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsReportable",
             "rowID":"{5E62E242-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -3991,7 +3990,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Keywords",
             "rowID":"{2B5CA14B-A5B5-49cf-A82D-DD71F2934A70}",
             "typeDef":"String",
@@ -4008,7 +4007,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{90FD8268-6423-4c3d-91B2-FF73AC8D0E87}_AA",
             "farID":"{90FD8268-6423-4c3d-91B2-FF73AC8D0E87}_BB",
             "visibility":"Public",
@@ -4019,7 +4018,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1505-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1505-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -4031,7 +4030,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1534-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1534-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -4042,7 +4041,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1504-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1504-D645-11d6-A44E-005004D480E1}_AA",
             "roleName":"Parent",
@@ -4055,7 +4054,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1504-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1504-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -4067,7 +4066,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{B008C1B3-52F1-4141-8F7E-706FE655BFB5}_AA",
             "farID":"{B008C1B3-52F1-4141-8F7E-706FE655BFB5}_BB",
             "visibility":"Public",
@@ -4085,7 +4084,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"PastEmployment",
         "rowID":"{4E054457-AE13-4363-929C-E7173B10C0E8}",
         "caption":"PastEmployment",
@@ -4098,7 +4097,7 @@
         "tableName":"juPastEmployment",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"PositionHeld",
             "rowID":"{269E99F6-3C1D-457c-8DE0-2FAA7AA5CFF2}",
             "typeDef":"String",
@@ -4113,7 +4112,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"EmployersName",
             "rowID":"{A701F3B7-FA4E-4ba5-B0DD-4B60C1E557D2}",
             "typeDef":"String",
@@ -4127,7 +4126,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"FromMonth",
             "rowID":"{4556BC22-642B-4529-8B20-9CE52A8C6A84}",
             "typeDef":"Month",
@@ -4141,7 +4140,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ToMonth",
             "rowID":"{4DCC6DC4-DC6A-48f3-8139-EDAC0B61FAA7}",
             "typeDef":"Month",
@@ -4155,7 +4154,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Responsibilities",
             "rowID":"{72BE27B3-F5C6-4745-AF97-6C3B6AC17D4D}",
             "typeDef":"Richtext",
@@ -4170,7 +4169,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{E9A0FBEE-7BFC-4ef4-BCCF-D4DC4AFC8A32}_AA",
             "farID":"{E9A0FBEE-7BFC-4ef4-BCCF-D4DC4AFC8A32}_BB",
             "visibility":"Public",
@@ -4186,7 +4185,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Picture",
         "rowID":"{D777B13E-B5C8-4e8b-BB01-6C9684FBE12D}",
         "caption":"Picture",
@@ -4199,7 +4198,7 @@
         "tableName":"juPicture",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"OwnerId",
             "rowID":"{271D9CD9-D9C8-479a-A057-B95F2D371227}",
             "typeDef":"int",
@@ -4212,7 +4211,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"OwnerType",
             "rowID":"{9FADEE95-18E4-4f51-8E77-9C2AC95989F5}",
             "typeDef":"string",
@@ -4227,7 +4226,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Image",
             "rowID":"{2EF0BBE4-03DF-458d-AFF3-AC72A4F35669}",
             "typeDef":"Image",
@@ -4241,7 +4240,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Format",
             "rowID":"{BDEDD671-631E-467d-A433-D67B015CEEAB}",
             "typeDef":"string",
@@ -4262,7 +4261,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Placement",
         "rowID":"{F7FC150E-D645-11d6-A44E-005004D480E1}",
         "caption":"Placement",
@@ -4275,7 +4274,7 @@
         "tableName":"juPlacement",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"StartDate",
             "rowID":"{5E62E23B-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Datetime",
@@ -4288,7 +4287,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ExpiryDate",
             "rowID":"{5E62E23C-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Datetime",
@@ -4301,7 +4300,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"WithdrawnDate",
             "rowID":"{5E62E244-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Datetime",
@@ -4315,7 +4314,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Options",
             "rowID":"{4383077F-D702-4fdd-8CE9-70759603CDD4}",
             "typeDef":"string",
@@ -4331,7 +4330,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{2366E9F7-6F4D-4236-AEB1-B6ADDD12A92B}_BB",
             "farID":"{2366E9F7-6F4D-4236-AEB1-B6ADDD12A92B}_AA",
             "visibility":"Public",
@@ -4343,7 +4342,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{EE583A38-F8D3-4ba4-A69D-820DDEB9568B}_BB",
             "farID":"{EE583A38-F8D3-4ba4-A69D-820DDEB9568B}_AA",
             "visibility":"Public",
@@ -4354,7 +4353,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1510-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1510-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -4365,7 +4364,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{14840F2D-4E1D-4ba0-8B1E-9238CF009FB4}_AA",
             "farID":"{14840F2D-4E1D-4ba0-8B1E-9238CF009FB4}_BB",
             "visibility":"Public",
@@ -4376,7 +4375,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5E62E3A0-E08A-11d6-A44F-005004D480E1}_BB",
             "farID":"{5E62E3A0-E08A-11d6-A44F-005004D480E1}_AA",
             "visibility":"Public",
@@ -4393,7 +4392,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Pricing Option",
         "rowID":"{BEFD7014-290B-4b75-9D77-6A6FF7BEE5B9}",
         "caption":"Pricing Option",
@@ -4406,7 +4405,7 @@
         "tableName":"juPricingOption",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{8FB7CA77-87D7-438b-BCC6-61968CE66F29}",
             "typeDef":"Descriptor",
@@ -4425,7 +4424,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Price",
             "rowID":"{E56A0133-3B16-4b49-9BFA-A07E09016C09}",
             "typeDef":"Currency",
@@ -4439,7 +4438,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Description",
             "rowID":"{3D599ACC-3196-4f42-AB32-2E501F352672}",
             "typeDef":"String",
@@ -4454,7 +4453,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Letter",
             "rowID":"{BF6DC87B-B753-40d1-AC68-D762F1C3D23D}",
             "typeDef":"string",
@@ -4471,7 +4470,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{C3F69995-1894-4349-82E6-5C3D9D3F3375}_AA",
             "farID":"{C3F69995-1894-4349-82E6-5C3D9D3F3375}_BB",
             "visibility":"Public",
@@ -4482,7 +4481,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{A4589ACE-0F6F-4784-B3A9-3C31832A6AEB}_AA",
             "farID":"{A4589ACE-0F6F-4784-B3A9-3C31832A6AEB}_BB",
             "visibility":"Public",
@@ -4498,7 +4497,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Qualification",
         "rowID":"{CC2A2D65-951F-4e43-976F-40BA66C3DAED}",
         "caption":"Qualification",
@@ -4511,7 +4510,7 @@
         "tableName":"juQualification",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Qualification",
             "rowID":"{AF30F2A0-89AF-48cd-BF94-AF35DFDCFABD}",
             "typeDef":"String",
@@ -4527,7 +4526,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Subject",
             "rowID":"{99E070CE-3C5F-44a8-8790-4E1BCD7C3D5E}",
             "typeDef":"String",
@@ -4542,7 +4541,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ReceivedOn",
             "rowID":"{1ADFD6FD-238D-441f-A36F-49F6AF9D97BC}",
             "typeDef":"Month",
@@ -4557,7 +4556,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Institution",
             "rowID":"{E67695DA-50BB-464c-A205-863BB20A5F99}",
             "typeDef":"String",
@@ -4574,7 +4573,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{E2182D32-821D-4b4b-8B98-FBBA4D07E468}_AA",
             "farID":"{E2182D32-821D-4b4b-8B98-FBBA4D07E468}_BB",
             "visibility":"Public",
@@ -4590,7 +4589,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Recruiter",
         "rowID":"{F7FC14EC-D645-11d6-A44E-005004D480E1}",
         "caption":"Recruiter",
@@ -4603,7 +4602,7 @@
         "tableName":"juRecruiter",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{5E62E216-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Descriptor",
@@ -4622,7 +4621,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Password",
             "rowID":"{5E62E217-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Password",
@@ -4637,7 +4636,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Email",
             "rowID":"{5E62E218-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Email",
@@ -4653,7 +4652,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsInactive",
             "rowID":"{5E62E219-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -4672,7 +4671,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Phone",
             "rowID":"{5E62E21A-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"PhoneNumber",
@@ -4687,7 +4686,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsSupervisor",
             "rowID":"{5E62E253-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"YesNo",
@@ -4704,7 +4703,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1500-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1500-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -4717,7 +4716,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC14F1-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC14F1-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -4730,7 +4729,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{59C7FAFD-76CA-48a3-AF22-215031DCB57D}_BB",
             "farID":"{59C7FAFD-76CA-48a3-AF22-215031DCB57D}_AA",
             "roleName":"admin",
@@ -4748,7 +4747,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Saved Job",
         "rowID":"{31FF2893-0A88-4c09-A1E4-DD8028389E70}",
         "caption":"Saved Job",
@@ -4761,7 +4760,7 @@
         "tableName":"juSavedJob",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Comments",
             "rowID":"{4B91A1DF-C402-4479-8DF2-742FB5BA4C6C}",
             "typeDef":"String",
@@ -4777,7 +4776,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{55E5CCFE-35F0-4f74-8FC5-CB28BDB9BE57}_AA",
             "farID":"{55E5CCFE-35F0-4f74-8FC5-CB28BDB9BE57}_BB",
             "visibility":"Public",
@@ -4788,7 +4787,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{86DB9915-463D-455f-AE7B-9D68DD0A4CE0}_AA",
             "farID":"{86DB9915-463D-455f-AE7B-9D68DD0A4CE0}_BB",
             "visibility":"Public",
@@ -4805,7 +4804,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Search Profile",
         "rowID":"{A51E9DD2-B7A9-4c52-97A7-182B75ECD799}",
         "caption":"Search Profile",
@@ -4818,7 +4817,7 @@
         "tableName":"juSearchProfile",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Keywords",
             "rowID":"{5E62E21C-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -4833,7 +4832,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"AndKeywords",
             "rowID":"{70553BAB-287B-4c9a-A3F4-85026658B5CC}",
             "typeDef":"YesNo",
@@ -4847,7 +4846,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Town",
             "rowID":"{4D03402B-E392-489a-9A64-2708BDA294BE}",
             "typeDef":"String",
@@ -4862,7 +4861,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsPermanent",
             "rowID":"{5E62E21F-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"String",
@@ -4874,7 +4873,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsFullTime",
             "rowID":"{8F3E4B9A-073A-411f-84E3-8F503F5D6FA4}",
             "typeDef":"String",
@@ -4886,7 +4885,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsEmailAlert",
             "rowID":"{9200EE84-1A5D-4b8b-A2A9-45E34DBD0980}",
             "typeDef":"YesNo",
@@ -4900,7 +4899,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"WithSkillProfile",
             "rowID":"{FB39A121-C889-47bd-8B65-3673CCB426BA}",
             "typeDef":"YesNo",
@@ -4914,7 +4913,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MinimumSalary",
             "rowID":"{C9A98A07-5DC0-49d2-B939-597F780AD912}",
             "typeDef":"Currency",
@@ -4928,7 +4927,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"MinimumHourlyRate",
             "rowID":"{C28E1387-94BE-4747-BB30-2A35601F071F}",
             "typeDef":"Currency",
@@ -4943,7 +4942,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{CA6EF39B-10B9-4019-A634-4EC35BDE00A7}_AA",
             "farID":"{CA6EF39B-10B9-4019-A634-4EC35BDE00A7}_BB",
             "visibility":"Public",
@@ -4955,7 +4954,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{BB77550A-67DF-4a5d-BB79-19F7299B235E}_AA",
             "farID":"{BB77550A-67DF-4a5d-BB79-19F7299B235E}_BB",
             "visibility":"Public",
@@ -4965,7 +4964,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{B008C1B3-52F1-4141-8F7E-706FE655BFB5}_BB",
             "farID":"{B008C1B3-52F1-4141-8F7E-706FE655BFB5}_AA",
             "visibility":"Public",
@@ -4983,7 +4982,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"SeekerSkillProfile",
         "rowID":"{3810DFBC-A30E-4390-9040-C83C988091BE}",
         "caption":"SeekerSkillProfile",
@@ -4996,7 +4995,7 @@
         "tableName":"juSeekerSkillProfile",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Level",
             "rowID":"{F24B52ED-EFE2-4982-9E76-7CDB6E34925D}",
             "typeDef":"String",
@@ -5008,7 +5007,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsDesired",
             "rowID":"{951ADFBC-A377-4ad1-9B94-8D71565D40B8}",
             "typeDef":"YesNo",
@@ -5024,7 +5023,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{40D2ADD8-EDBF-4da1-B535-D8741F42F09D}_AA",
             "farID":"{40D2ADD8-EDBF-4da1-B535-D8741F42F09D}_BB",
             "visibility":"Public",
@@ -5034,7 +5033,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{471F5465-6ADE-49b5-8B90-8DB2C6B1BD22}_AA",
             "farID":"{471F5465-6ADE-49b5-8B90-8DB2C6B1BD22}_BB",
             "visibility":"Public",
@@ -5051,7 +5050,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"SiteParameter",
         "rowID":"{07873737-D310-4e30-B939-7B7A20E89316}",
         "caption":"SiteParameter",
@@ -5063,7 +5062,7 @@
         "tableName":"juSiteParameter",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Block",
             "rowID":"{673950D9-E757-4630-B588-8D89B1527785}",
             "typeDef":"string",
@@ -5078,7 +5077,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{FDC52E80-6CEC-428b-8B3F-793F29894F40}",
             "typeDef":"string",
@@ -5093,7 +5092,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Value",
             "rowID":"{4B70E62C-31D2-49f5-9A1B-7013DA8AE19E}",
             "typeDef":"string",
@@ -5108,7 +5107,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Note",
             "rowID":"{2A78CF9C-BF9B-48a9-AEE4-E7454E1CDF71}",
             "typeDef":"string",
@@ -5125,7 +5124,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{16FAEE05-D4B8-40fe-82E3-FCB95866463C}_AA",
             "farID":"{16FAEE05-D4B8-40fe-82E3-FCB95866463C}_BB",
             "visibility":"Public",
@@ -5141,7 +5140,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Skill",
         "rowID":"{8A5FD0DD-4114-40ee-8DDE-B606F0C009ED}",
         "caption":"Skill",
@@ -5154,7 +5153,7 @@
         "tableName":"juSkill",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{85778869-4613-4d32-9540-2F56625BC80F}",
             "typeDef":"String",
@@ -5169,7 +5168,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Description",
             "rowID":"{F55C103D-3CF8-4513-A926-6E09DEF661FF}",
             "typeDef":"String",
@@ -5183,7 +5182,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Keywords",
             "rowID":"{8E23A7AA-9AD5-4712-9244-16E0B9B0C3E1}",
             "typeDef":"String",
@@ -5200,7 +5199,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{DE0E0326-79DE-4625-80B7-A8FD14348893}_AA",
             "farID":"{DE0E0326-79DE-4625-80B7-A8FD14348893}_BB",
             "visibility":"Public",
@@ -5211,7 +5210,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{471F5465-6ADE-49b5-8B90-8DB2C6B1BD22}_BB",
             "farID":"{471F5465-6ADE-49b5-8B90-8DB2C6B1BD22}_AA",
             "visibility":"Public",
@@ -5222,7 +5221,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{A03840F8-8870-4285-B3FF-85403A738B16}_BB",
             "farID":"{A03840F8-8870-4285-B3FF-85403A738B16}_AA",
             "visibility":"Public",
@@ -5239,7 +5238,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Skill Category",
         "rowID":"{EB596758-8AA3-468c-9250-9C266D909060}",
         "caption":"Skill Category",
@@ -5252,7 +5251,7 @@
         "tableName":"juSkillCategory",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{42DC5D44-AF08-4418-BB85-D9595D26D39A}",
             "typeDef":"String",
@@ -5266,7 +5265,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SortCode",
             "rowID":"{80EAFFB5-B259-460c-B442-49542447EB10}",
             "typeDef":"Integer",
@@ -5281,7 +5280,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{A03840F8-8870-4285-B3FF-85403A738B16}_AA",
             "farID":"{A03840F8-8870-4285-B3FF-85403A738B16}_BB",
             "visibility":"Public",
@@ -5298,7 +5297,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Template",
         "rowID":"{5E62E26A-E08A-11d6-A44F-005004D480E1}",
         "caption":"Template",
@@ -5311,7 +5310,7 @@
         "tableName":"juTemplate",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{5E62E278-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Descriptor",
@@ -5330,7 +5329,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"FileName",
             "rowID":"{5E62E271-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"URL",
@@ -5345,7 +5344,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Thumbnail",
             "rowID":"{5E62E273-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"URL",
@@ -5360,7 +5359,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"StyleSheet",
             "rowID":"{8FA3284B-1CB9-44ad-BA89-816321A19B21}",
             "typeDef":"Memo",
@@ -5374,7 +5373,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Contents",
             "rowID":"{113CAD31-7342-4e27-ACD8-076F79847AA5}",
             "typeDef":"Memo",
@@ -5391,7 +5390,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5E62E2A3-E08A-11d6-A44F-005004D480E1}_BB",
             "farID":"{5E62E2A3-E08A-11d6-A44F-005004D480E1}_AA",
             "visibility":"Public",
@@ -5402,7 +5401,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{D6811CC9-9752-4f66-91D2-6C5657DE61A6}_BB",
             "farID":"{D6811CC9-9752-4f66-91D2-6C5657DE61A6}_AA",
             "visibility":"Public",
@@ -5414,7 +5413,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5E62E28F-E08A-11d6-A44F-005004D480E1}_BB",
             "farID":"{5E62E28F-E08A-11d6-A44F-005004D480E1}_AA",
             "visibility":"Public",
@@ -5425,7 +5424,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{26988229-F02A-40f2-B9B6-36E1B1B6FFAA}_BB",
             "farID":"{26988229-F02A-40f2-B9B6-36E1B1B6FFAA}_AA",
             "visibility":"Public",
@@ -5441,7 +5440,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Template Image",
         "rowID":"{D1982D13-2AE1-4fe5-AA28-4F5E46471667}",
         "caption":"Template Image",
@@ -5454,7 +5453,7 @@
         "tableName":"juTemplateImage",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{C85C329D-BF59-483f-B5E8-0350F8353AF2}",
             "typeDef":"String",
@@ -5469,7 +5468,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Image",
             "rowID":"{2D572909-247C-4e2d-8657-A48E165579B0}",
             "typeDef":"Image",
@@ -5485,7 +5484,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{26988229-F02A-40f2-B9B6-36E1B1B6FFAA}_AA",
             "farID":"{26988229-F02A-40f2-B9B6-36E1B1B6FFAA}_BB",
             "visibility":"Public",
@@ -5501,7 +5500,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Transaction",
         "rowID":"{F7FC1537-D645-11d6-A44E-005004D480E1}",
         "caption":"Transaction",
@@ -5514,7 +5513,7 @@
         "tableName":"juTransaction",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Amount",
             "rowID":"{5E62E24A-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Currency",
@@ -5528,7 +5527,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"NetAmount",
             "rowID":"{3AFB1675-48E8-444e-BCB7-BDBBF1D222BF}",
             "typeDef":"currency",
@@ -5542,7 +5541,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SalesTax",
             "rowID":"{27FC7090-40BB-4dfe-8D50-2CC4D402FAB5}",
             "typeDef":"currency",
@@ -5556,7 +5555,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"TransactionType",
             "rowID":"{C18C901D-2C9A-4ce8-9C4A-F5FEB5C71032}",
             "typeDef":"String",
@@ -5568,7 +5567,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Description",
             "rowID":"{BEFE778A-0ACE-4220-A84D-1FE379623F54}",
             "typeDef":"String",
@@ -5583,7 +5582,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsCredit",
             "rowID":"{2D331F44-7457-45b4-8348-97DB59BAA552}",
             "typeDef":"YesNo",
@@ -5597,7 +5596,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"PaymentEngineCode",
             "rowID":"{FE5C4950-F2B9-4bcb-8CD3-79A3F4A7F465}",
             "typeDef":"string",
@@ -5612,7 +5611,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Status",
             "rowID":"{7131FE50-0165-4316-8C21-72237A996ACE}",
             "typeDef":"String",
@@ -5624,7 +5623,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Details",
             "rowID":"{46012C0A-1C7B-4c8e-A246-5E97BC9A5FCE}",
             "typeDef":"Text",
@@ -5638,7 +5637,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"PurchaseOrderNo",
             "rowID":"{7EC6BDCC-86A9-4a3f-A62B-45D113AD6240}",
             "typeDef":"String",
@@ -5654,7 +5653,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{17ADBCED-2F86-43c5-99EE-44C3E55E4D06}_BB",
             "farID":"{17ADBCED-2F86-43c5-99EE-44C3E55E4D06}_AA",
             "visibility":"Public",
@@ -5666,7 +5665,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{7CCBA869-60AC-40bd-96B4-8AB04B849F16}_AA",
             "farID":"{7CCBA869-60AC-40bd-96B4-8AB04B849F16}_BB",
             "visibility":"Public",
@@ -5677,7 +5676,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1538-D645-11d6-A44E-005004D480E1}_BB",
             "farID":"{F7FC1538-D645-11d6-A44E-005004D480E1}_AA",
             "visibility":"Public",
@@ -5694,7 +5693,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Upload Profile",
         "rowID":"{BD8D4C1D-2CEE-48b9-9BAE-FD7FBDEEEFF3}",
         "caption":"Upload Profile",
@@ -5707,7 +5706,7 @@
         "tableName":"juUploadProfile",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsActive",
             "rowID":"{F233FEDA-F252-4c5e-833B-B66BE9357684}",
             "typeDef":"YesNo",
@@ -5721,7 +5720,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"WatchDirectory",
             "rowID":"{A08F925C-C99B-4e36-8561-8330674C18D0}",
             "typeDef":"url",
@@ -5742,7 +5741,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Website",
         "rowID":"{F7FC1507-D645-11d6-A44E-005004D480E1}",
         "caption":"Website",
@@ -5755,7 +5754,7 @@
         "tableName":"juWebsite",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{5E62E20F-E08A-11d6-A44F-005004D480E1}",
             "typeDef":"Descriptor",
@@ -5774,7 +5773,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"isActive",
             "rowID":"{D80337B7-A3CE-479c-A84A-CA8EE5DE292E}",
             "typeDef":"YesNo",
@@ -5790,7 +5789,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{4584F70E-C32D-432a-82C1-A805AEEAFEDC}_BB",
             "farID":"{4584F70E-C32D-432a-82C1-A805AEEAFEDC}_AA",
             "visibility":"Public",
@@ -5800,7 +5799,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{F7FC1512-D645-11d6-A44E-005004D480E1}_AA",
             "farID":"{F7FC1512-D645-11d6-A44E-005004D480E1}_BB",
             "visibility":"Public",
@@ -5811,7 +5810,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{CF76B21A-78AC-408d-97A6-1215DC58FA9C}_AA",
             "farID":"{CF76B21A-78AC-408d-97A6-1215DC58FA9C}_BB",
             "visibility":"Public",
@@ -5822,7 +5821,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{BAD3D926-0697-408e-811A-9F54DDF04B2E}_BB",
             "farID":"{BAD3D926-0697-408e-811A-9F54DDF04B2E}_AA",
             "visibility":"Public",
@@ -5833,7 +5832,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{5E62E3A0-E08A-11d6-A44F-005004D480E1}_AA",
             "farID":"{5E62E3A0-E08A-11d6-A44F-005004D480E1}_BB",
             "visibility":"Public",
@@ -5844,7 +5843,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{A4589ACE-0F6F-4784-B3A9-3C31832A6AEB}_BB",
             "farID":"{A4589ACE-0F6F-4784-B3A9-3C31832A6AEB}_AA",
             "visibility":"Public",
@@ -5854,7 +5853,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{16FAEE05-D4B8-40fe-82E3-FCB95866463C}_BB",
             "farID":"{16FAEE05-D4B8-40fe-82E3-FCB95866463C}_AA",
             "visibility":"Public",
@@ -5864,7 +5863,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{59C7FAFD-76CA-48a3-AF22-215031DCB57D}_AA",
             "farID":"{59C7FAFD-76CA-48a3-AF22-215031DCB57D}_BB",
             "visibility":"Public",
@@ -5882,7 +5881,7 @@
     ],
     "dataTypes":[
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Month",
         "rowID":"{67CE49FF-B336-4d96-B065-8E163B917656}",
         "widget":"TMonth",
@@ -5890,7 +5889,7 @@
         "dDLType":"int"
       },
       {
-        "@Type":"TMaxDataType",
+        "@Type":"DataType",
         "name":"Videoxxx",
         "rowID":"{0E843C6B-1772-42ac-B8DF-8D0006B19782}",
         "widget":"TVideo",
@@ -5900,7 +5899,7 @@
     ]
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"JobUniverse Datatypes",
     "rowID":"{CB7ABAD8-770A-4955-97C8-62BB63DAA4B2}",
     "module":"JobUniverse Datatypes",
@@ -5909,7 +5908,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"JobUniverse Use Case View",
     "rowID":"{7672A317-F1F0-4658-8886-E25AFC3AC10C}",
     "module":"JobUniverse Use Case View",
@@ -5918,7 +5917,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Non-Functional Requirement",
     "rowID":"{BA7BC6F3-3ABC-4e9a-B12D-604A81E7A035}",
     "module":"Non-Functional Requirement",
@@ -5927,7 +5926,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Other Requirements",
     "rowID":"{F8F5FE67-E9DE-491a-A1E5-6367706FE428}",
     "module":"Other Requirements",
@@ -5936,7 +5935,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Performance",
     "rowID":"{1DCD05F4-37B3-4986-AAA0-52BDEBBC743C}",
     "module":"Performance",
@@ -5945,7 +5944,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"SalesPerson Uses Cases",
     "rowID":"{9F8A5267-DBDB-11d6-A44F-005004D480E1}",
     "module":"SalesPerson Uses Cases",
@@ -5954,7 +5953,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"SalesPersonUI",
     "rowID":"{5E62E3F7-E08A-11d6-A44F-005004D480E1}",
     "module":"SalesPersonUI",
@@ -5963,7 +5962,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Security",
     "rowID":"{06537400-CFBC-465b-B2A6-846E1BD88ECF}",
     "module":"Security",
@@ -5972,7 +5971,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Security",
     "rowID":"{F77B8256-6F69-41bf-AF32-CAB50D3F32CE}",
     "stereoType":"subsystem",
@@ -5984,7 +5983,7 @@
     },
     "classes":[
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Enhancement",
         "rowID":"{B90521D2-9171-432b-BC42-58021AAAF13D}",
         "caption":"Enhancement",
@@ -5996,7 +5995,7 @@
         "tableName":"secEnhancement",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Title",
             "rowID":"{AFEB66BD-D080-4c5a-8C62-8504A855C163}",
             "typeDef":"String",
@@ -6010,7 +6009,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Notes",
             "rowID":"{CA5DACFE-5DB2-4d64-BFEB-6D79C1D7BD10}",
             "typeDef":"HTML",
@@ -6025,7 +6024,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CreateDate",
             "rowID":"{BF2739F1-FFDE-4725-8328-D9EDFF54F8B6}",
             "typeDef":"Datetime",
@@ -6040,7 +6039,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CreatedUser",
             "rowID":"{91EA9BC0-8BC5-4b96-8198-11F90DD43DE3}",
             "typeDef":"string",
@@ -6056,7 +6055,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SignoffDate",
             "rowID":"{E6CF8A12-D1B0-44b4-AEED-CAF6EB851BE9}",
             "typeDef":"Datetime",
@@ -6071,7 +6070,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"IsUrgent",
             "rowID":"{0EF4C05F-ED94-403e-A691-CCA3453B41F7}",
             "typeDef":"YesNo",
@@ -6084,7 +6083,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Priority",
             "rowID":"{D653D011-A673-4606-B37A-EFB7E83A6F03}",
             "typeDef":"string",
@@ -6101,7 +6100,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{6C2AB35D-32D9-4a7d-B3D0-2BCC3A790E10}_BB",
             "farID":"{6C2AB35D-32D9-4a7d-B3D0-2BCC3A790E10}_AA",
             "visibility":"Public",
@@ -6120,7 +6119,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Right",
         "rowID":"{04B9EBE1-60A4-4d4f-8DFE-7ABA402D8DC1}",
         "caption":"Right",
@@ -6132,7 +6131,7 @@
         "tableName":"secRight",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{1D862053-146E-40d0-AE92-18E5F8E1BB17}",
             "typeDef":"Descriptor",
@@ -6151,7 +6150,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Context",
             "rowID":"{03EC00A7-BEC6-486c-8945-51452CFFB89E}",
             "typeDef":"string",
@@ -6168,7 +6167,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{80490895-B95E-4525-BB95-7A0194A11AB2}_AA",
             "farID":"{80490895-B95E-4525-BB95-7A0194A11AB2}_BB",
             "visibility":"Public",
@@ -6185,7 +6184,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Role",
         "rowID":"{B103781F-4AA4-4b46-AD07-E8D5023763C3}",
         "caption":"Role",
@@ -6197,7 +6196,7 @@
         "tableName":"secRole",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{DCBE8739-0CB4-4aa8-93A4-0C0164CD798B}",
             "typeDef":"Descriptor",
@@ -6216,7 +6215,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SecurityLevel",
             "rowID":"{9EE307CF-B8F5-4639-BC69-FB3318138D18}",
             "typeDef":"Integer",
@@ -6232,7 +6231,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{04963B2A-3C4B-442f-95B8-DC5521381221}_BB",
             "farID":"{04963B2A-3C4B-442f-95B8-DC5521381221}_AA",
             "visibility":"Public",
@@ -6244,7 +6243,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{80490895-B95E-4525-BB95-7A0194A11AB2}_BB",
             "farID":"{80490895-B95E-4525-BB95-7A0194A11AB2}_AA",
             "visibility":"Public",
@@ -6255,7 +6254,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{C25D0D63-D012-41ae-90AB-BCE560C5FDDF}_BB",
             "farID":"{C25D0D63-D012-41ae-90AB-BCE560C5FDDF}_AA",
             "visibility":"Public",
@@ -6272,7 +6271,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"User",
         "rowID":"{9DAEF3C6-B1C4-4f27-B5DA-F3A9E85990FD}",
         "caption":"User",
@@ -6284,7 +6283,7 @@
         "tableName":"secUser",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{67FD1DBF-10C7-4c21-9C5D-146C351BDCA6}",
             "typeDef":"String",
@@ -6301,7 +6300,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"NetworkId",
             "rowID":"{BE4807FF-CE1A-420d-BFC3-73C2779651FA}",
             "typeDef":"String",
@@ -6318,7 +6317,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"EmailAddress",
             "rowID":"{203CA3C8-0089-4c14-8E03-352AA7F29879}",
             "typeDef":"Email",
@@ -6338,7 +6337,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"PhoneNumber",
             "rowID":"{12D0F895-ADAA-47b0-96F4-96013BC47212}",
             "typeDef":"PhoneNumber",
@@ -6353,7 +6352,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Password",
             "rowID":"{7555949A-6A4F-468a-87AB-7EEE722D3925}",
             "typeDef":"Password",
@@ -6368,7 +6367,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"LastVisitDate",
             "rowID":"{2D21E564-565D-4107-931E-62AE6EE262FC}",
             "typeDef":"Datetime",
@@ -6383,7 +6382,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Level",
             "rowID":"{817B92A9-22B5-4f3d-9F0F-39DE02F63573}",
             "typeDef":"int",
@@ -6397,7 +6396,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Preferences",
             "rowID":"{75043D9C-ABD8-4e50-85E3-DC6D6A7179C4}",
             "typeDef":"String",
@@ -6414,7 +6413,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{04963B2A-3C4B-442f-95B8-DC5521381221}_AA",
             "farID":"{04963B2A-3C4B-442f-95B8-DC5521381221}_BB",
             "visibility":"Public",
@@ -6426,7 +6425,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{29200251-7DFE-4acb-AA41-727472BFA50E}_BB",
             "farID":"{29200251-7DFE-4acb-AA41-727472BFA50E}_AA",
             "visibility":"Public",
@@ -6444,7 +6443,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"User Role",
         "rowID":"{8C1CB4EA-999E-4a59-965D-BF97E94F6EC4}",
         "caption":"User Role",
@@ -6455,7 +6454,7 @@
         "tableName":"secUserRole",
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"",
             "farID":"{04963B2A-3C4B-442f-95B8-DC5521381221}_AA",
             "visibility":"Public",
@@ -6466,7 +6465,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"",
             "farID":"{04963B2A-3C4B-442f-95B8-DC5521381221}_BB",
             "visibility":"Public",
@@ -6483,7 +6482,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"WebAction",
         "rowID":"{3094F082-5550-4ceb-81AB-0F8A8422B2C8}",
         "caption":"WebAction",
@@ -6496,7 +6495,7 @@
         "tableName":"secWebAction",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{8E321FC0-A6D2-45ca-A5B4-DDE74CE19C11}",
             "typeDef":"Descriptor",
@@ -6515,7 +6514,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Title",
             "rowID":"{D8B0713C-F842-494f-8CC8-A0C062133018}",
             "typeDef":"String",
@@ -6530,7 +6529,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Introduction",
             "rowID":"{D0523400-2560-4057-8467-147B94B263C3}",
             "typeDef":"Memo",
@@ -6544,7 +6543,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Footer",
             "rowID":"{CB5821A8-6640-462f-A347-147A73AEAA5B}",
             "typeDef":"Memo",
@@ -6558,7 +6557,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SecurityLevel",
             "rowID":"{CA396B87-EB65-431d-A6EA-D09B7AFD5BAC}",
             "typeDef":"int",
@@ -6572,7 +6571,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Size",
             "rowID":"{6B3B4EA8-292D-480c-B0EF-7CBD4BDE6A39}",
             "typeDef":"int",
@@ -6586,7 +6585,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ActionGroup",
             "rowID":"{B2E0C4DB-EFD1-4deb-86CD-3FD2CBD5A8B5}",
             "typeDef":"String",
@@ -6601,7 +6600,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CreatedDate",
             "rowID":"{A082443D-268D-4bdf-B343-8EE73758BA21}",
             "typeDef":"Date",
@@ -6618,7 +6617,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"StartedDate",
             "rowID":"{676DCCFA-65C3-4178-B8E2-DE86708D4A82}",
             "typeDef":"Date",
@@ -6631,7 +6630,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ProgrammedDate",
             "rowID":"{1738F371-E9CC-41a8-85DE-748A30B6A2DC}",
             "typeDef":"Date",
@@ -6645,7 +6644,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SignoffDate",
             "rowID":"{D9DE44B2-B70E-4e11-A225-2DC12ADEA1D5}",
             "typeDef":"Date",
@@ -6659,7 +6658,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"SignoffContentDate",
             "rowID":"{230BDB21-2017-4f11-A9CE-03BE20FD5F31}",
             "typeDef":"Date",
@@ -6673,7 +6672,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Description",
             "rowID":"{1569A5E2-6547-4bb7-A641-6D8334BB5FE9}",
             "typeDef":"String",
@@ -6688,7 +6687,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Style",
             "rowID":"{D6F88EBC-9A2F-40de-B1D7-1F1AD0E0BF85}",
             "typeDef":"String",
@@ -6703,7 +6702,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Parameters",
             "rowID":"{14AE1AB2-540B-4a48-9B98-F2EF99BF2099}",
             "typeDef":"String",
@@ -6718,7 +6717,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"WeekNo",
             "rowID":"{5B277DF4-217A-460b-8BB4-A0868A03B28B}",
             "typeDef":"int",
@@ -6734,7 +6733,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{6C2AB35D-32D9-4a7d-B3D0-2BCC3A790E10}_AA",
             "farID":"{6C2AB35D-32D9-4a7d-B3D0-2BCC3A790E10}_BB",
             "visibility":"Public",
@@ -6753,7 +6752,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Workgroup",
         "rowID":"{FF4B578D-0303-4d9c-83B4-DE973856713F}",
         "caption":"Workgroup",
@@ -6765,7 +6764,7 @@
         "tableName":"secWorkgroup",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{4169B095-8EB0-4bb2-B148-FD166FB057E4}",
             "typeDef":"Descriptor",
@@ -6786,7 +6785,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{29200251-7DFE-4acb-AA41-727472BFA50E}_AA",
             "farID":"{29200251-7DFE-4acb-AA41-727472BFA50E}_BB",
             "visibility":"Public",
@@ -6805,7 +6804,7 @@
     ]
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Security Actors",
     "rowID":"{6DA4642C-A57F-4543-8C12-4BB74DEE5505}",
     "module":"Security Actors",
@@ -6814,7 +6813,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Security Use Cases",
     "rowID":"{470282C6-2412-45d0-9EC8-29648AF9DC3E}",
     "module":"Security Use Cases",
@@ -6823,7 +6822,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"State Engines",
     "rowID":"{BDF12CD8-DDF3-4684-8AE8-F535B674519E}",
     "module":"State Engines",
@@ -6832,7 +6831,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Templates",
     "rowID":"{5E62E436-E08A-11d6-A44F-005004D480E1}",
     "module":"Templates",
@@ -6841,7 +6840,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"User Interface",
     "rowID":"{70C1C345-DC8E-11d6-A44F-005004D480E1}",
     "module":"User Interface",
@@ -6850,7 +6849,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"User Interface",
     "rowID":"{B637ECB0-22DB-4352-9373-EE3880224DFB}",
     "module":"User Interface",
@@ -6859,7 +6858,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Workflow",
     "rowID":"{6CDC939F-12D1-4bb1-BDE6-727DF71D0D0F}",
     "stereoType":"subsystem",
@@ -6871,7 +6870,7 @@
     },
     "classes":[
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Arc",
         "rowID":"{EF527D5D-7205-4fac-8B82-03AEACD0F0BC}",
         "caption":"Arc",
@@ -6883,7 +6882,7 @@
         "tableName":"wrkArc",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Inward",
             "rowID":"{ACB393F3-3EB3-4f9e-B580-F8DBE5E35C33}",
             "typeDef":"boolean",
@@ -6896,7 +6895,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"ArcType",
             "rowID":"{F27B8D41-3DA3-4673-B95F-F291FF2B786A}",
             "typeDef":"String",
@@ -6908,7 +6907,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"precondition",
             "rowID":"{45D6777B-C0D4-4cc1-AE48-8575FB4B9BFB}",
             "typeDef":"Rule",
@@ -6923,7 +6922,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{223C932A-840F-430f-9310-1C6474B61303}_AA",
             "farID":"{223C932A-840F-430f-9310-1C6474B61303}_BB",
             "visibility":"Public",
@@ -6934,7 +6933,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{E12B2AD3-1C49-4c2a-958D-6DBD55E330DE}_BB",
             "farID":"{E12B2AD3-1C49-4c2a-958D-6DBD55E330DE}_AA",
             "visibility":"Public",
@@ -6945,7 +6944,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{C450A224-D6E7-4225-B962-11B56D15FA4B}_AA",
             "farID":"{C450A224-D6E7-4225-B962-11B56D15FA4B}_BB",
             "visibility":"Public",
@@ -6961,7 +6960,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Case",
         "rowID":"{EA3E6F19-C8C7-48de-9E6E-3FD9270A1C72}",
         "caption":"Case",
@@ -6973,7 +6972,7 @@
         "tableName":"wrkCase",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Context",
             "rowID":"{BEFB602E-2E0A-4f3e-8799-39FACBBA9C4C}",
             "typeDef":"String",
@@ -6987,7 +6986,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"CaseStatus",
             "rowID":"{A7A227B0-BA20-4115-9E85-A70080F460CB}",
             "typeDef":"String",
@@ -6999,7 +6998,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Startdate",
             "rowID":"{12DD318C-440F-4648-A49A-A86A3AD7311D}",
             "typeDef":"Date",
@@ -7012,7 +7011,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Laststatusdate",
             "rowID":"{73A396CF-5792-4117-8627-46AEBB9EF83D}",
             "typeDef":"Date",
@@ -7027,7 +7026,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{2DBC4E2F-288C-40c7-89BE-83EB243D8651}_BB",
             "farID":"{2DBC4E2F-288C-40c7-89BE-83EB243D8651}_AA",
             "visibility":"Public",
@@ -7037,7 +7036,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{E3F538B1-EC5C-484d-BF4E-FF6176BB3FE9}_BB",
             "farID":"{E3F538B1-EC5C-484d-BF4E-FF6176BB3FE9}_AA",
             "visibility":"Public",
@@ -7047,7 +7046,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{257E61D3-67F4-474e-948C-9821C1E6E5ED}_BB",
             "farID":"{257E61D3-67F4-474e-948C-9821C1E6E5ED}_AA",
             "visibility":"Public",
@@ -7064,7 +7063,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Place",
         "rowID":"{265A643B-F356-4347-B0DD-A92A6120F9BC}",
         "caption":"Place",
@@ -7076,7 +7075,7 @@
         "tableName":"wrkPlace",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{22097413-623A-4bb7-A033-F1FDF976FFC2}",
             "typeDef":"description",
@@ -7096,7 +7095,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{223C932A-840F-430f-9310-1C6474B61303}_BB",
             "farID":"{223C932A-840F-430f-9310-1C6474B61303}_AA",
             "visibility":"Public",
@@ -7107,7 +7106,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{15569496-685C-4763-A17A-F07A1EE30C66}_AA",
             "farID":"{15569496-685C-4763-A17A-F07A1EE30C66}_BB",
             "visibility":"Public",
@@ -7118,7 +7117,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{3F3FC348-ADFD-4d0b-BFFD-30306E6D5B1A}_BB",
             "farID":"{3F3FC348-ADFD-4d0b-BFFD-30306E6D5B1A}_AA",
             "visibility":"Public",
@@ -7129,7 +7128,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{A12BF2A1-2AC8-4fc4-9EF3-4FD1E0E43ED6}_AA",
             "farID":"{A12BF2A1-2AC8-4fc4-9EF3-4FD1E0E43ED6}_BB",
             "visibility":"Public",
@@ -7139,7 +7138,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{7E29FA8F-702D-4d2d-896B-7408E297451F}_BB",
             "farID":"{7E29FA8F-702D-4d2d-896B-7408E297451F}_AA",
             "roleName":"End",
@@ -7150,7 +7149,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{EBC4ED47-0116-49e5-B0E9-33561390D68D}_BB",
             "farID":"{EBC4ED47-0116-49e5-B0E9-33561390D68D}_AA",
             "roleName":"Start",
@@ -7167,7 +7166,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Task",
         "rowID":"{8726E761-C672-4a39-A8C3-63B37C915A56}",
         "caption":"Task",
@@ -7178,7 +7177,7 @@
         "tableName":"wrkTask",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{75CCB168-B7D3-4596-A317-0068C17E03FF}",
             "typeDef":"Descriptor",
@@ -7196,7 +7195,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Executionpath",
             "rowID":"{2A74A325-A4A1-490f-8EB5-E949A005CAB4}",
             "typeDef":"String",
@@ -7212,7 +7211,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{56AE6D5A-C253-436f-8311-3106C0E089C4}_BB",
             "farID":"{56AE6D5A-C253-436f-8311-3106C0E089C4}_AA",
             "visibility":"Public",
@@ -7223,7 +7222,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{4B71A153-88F8-494b-BDBD-419C1935EBE2}_BB",
             "farID":"{4B71A153-88F8-494b-BDBD-419C1935EBE2}_AA",
             "roleName":"Start",
@@ -7241,7 +7240,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Token",
         "rowID":"{7AB0821D-ACDD-4e0d-826B-9ADB96510D84}",
         "caption":"Token",
@@ -7253,7 +7252,7 @@
         "tableName":"wrkToken",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Enabledtime",
             "rowID":"{D32AEFB0-CE92-40a6-924B-2F166150CBD1}",
             "typeDef":"Time",
@@ -7266,7 +7265,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"token_status",
             "rowID":"{84230630-4C11-4a90-BC25-DD7B884052AA}",
             "typeDef":"String",
@@ -7278,7 +7277,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Laststatustime",
             "rowID":"{12FCB17B-078B-45d5-B975-C65DEA778DF5}",
             "typeDef":"Time",
@@ -7293,7 +7292,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{2DBC4E2F-288C-40c7-89BE-83EB243D8651}_AA",
             "farID":"{2DBC4E2F-288C-40c7-89BE-83EB243D8651}_BB",
             "visibility":"Public",
@@ -7303,7 +7302,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{15569496-685C-4763-A17A-F07A1EE30C66}_BB",
             "farID":"{15569496-685C-4763-A17A-F07A1EE30C66}_AA",
             "visibility":"Public",
@@ -7320,7 +7319,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Transition",
         "rowID":"{F0087838-3FB8-4871-A517-D5AFAC223CB5}",
         "caption":"Transition",
@@ -7332,7 +7331,7 @@
         "tableName":"wrkTransition",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Triggertype",
             "rowID":"{656EE3FA-43CE-4a70-ABAD-5F0C8C34773B}",
             "typeDef":"String",
@@ -7344,7 +7343,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Timeoutrule",
             "rowID":"{9A970E1C-3CB7-484c-8822-00E52CB5F031}",
             "typeDef":"Rule",
@@ -7359,7 +7358,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{E12B2AD3-1C49-4c2a-958D-6DBD55E330DE}_AA",
             "farID":"{E12B2AD3-1C49-4c2a-958D-6DBD55E330DE}_BB",
             "visibility":"Public",
@@ -7370,7 +7369,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{3F3FC348-ADFD-4d0b-BFFD-30306E6D5B1A}_AA",
             "farID":"{3F3FC348-ADFD-4d0b-BFFD-30306E6D5B1A}_BB",
             "visibility":"Public",
@@ -7381,7 +7380,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{56AE6D5A-C253-436f-8311-3106C0E089C4}_AA",
             "farID":"{56AE6D5A-C253-436f-8311-3106C0E089C4}_BB",
             "visibility":"Public",
@@ -7392,7 +7391,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{17FCEEE9-3998-428a-80EB-50474D64DE77}_AA",
             "farID":"{17FCEEE9-3998-428a-80EB-50474D64DE77}_BB",
             "visibility":"Public",
@@ -7403,7 +7402,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{6390F01A-6A3C-4a06-8B27-C73BC2CCEF42}_AA",
             "farID":"{6390F01A-6A3C-4a06-8B27-C73BC2CCEF42}_BB",
             "visibility":"Public",
@@ -7413,7 +7412,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{D6E80322-068A-4d7f-BB62-9F3E58A44CBA}_AA",
             "farID":"{D6E80322-068A-4d7f-BB62-9F3E58A44CBA}_BB",
             "visibility":"Public",
@@ -7426,7 +7425,7 @@
         ],
         "operations":[
           {
-            "@Type":"TMaxOperation",
+            "@Type":"Operation",
             "name":"fire",
             "rowID":"",
             "visibility":"Public",
@@ -7442,7 +7441,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Trigger",
         "rowID":"{B2DA65E7-10EA-440e-BF45-28DF9CEBFB20}",
         "caption":"Trigger",
@@ -7453,7 +7452,7 @@
         "tableName":"wrkTrigger",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Triggertype",
             "rowID":"{AC42C394-7730-4c18-9012-0BFAB49C37E7}",
             "typeDef":"String",
@@ -7471,7 +7470,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Work Queue",
         "rowID":"{693AD35F-0402-46e3-AE19-7D6B276A8325}",
         "caption":"Work Queue",
@@ -7482,7 +7481,7 @@
         "tableName":"wrkWorkQueue",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{72675377-CD8E-415d-B7B9-6D425C89D703}",
             "typeDef":"Description",
@@ -7502,7 +7501,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{C25D0D63-D012-41ae-90AB-BCE560C5FDDF}_AA",
             "farID":"{C25D0D63-D012-41ae-90AB-BCE560C5FDDF}_BB",
             "visibility":"Public",
@@ -7513,7 +7512,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{D6E80322-068A-4d7f-BB62-9F3E58A44CBA}_BB",
             "farID":"{D6E80322-068A-4d7f-BB62-9F3E58A44CBA}_AA",
             "roleName":"default",
@@ -7525,7 +7524,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{AC488978-7E05-4ab4-9B90-1A6D1AF39EB4}_BB",
             "farID":"{AC488978-7E05-4ab4-9B90-1A6D1AF39EB4}_AA",
             "visibility":"Public",
@@ -7542,7 +7541,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"Workflow",
         "rowID":"{3C50E075-5853-4382-8D59-D2EC79F71779}",
         "caption":"Workflow",
@@ -7554,7 +7553,7 @@
         "tableName":"wrkWorkflow",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Name",
             "rowID":"{AC13C836-D2E0-45a5-8C87-9F9D39EBCE71}",
             "typeDef":"Description",
@@ -7572,7 +7571,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Startdate",
             "rowID":"{4497F608-A2C1-4af1-990B-20006378F1A9}",
             "typeDef":"date",
@@ -7585,7 +7584,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Enddate",
             "rowID":"{F095564E-F153-4bd6-A40B-5BF94B2605D4}",
             "typeDef":"date",
@@ -7598,7 +7597,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Isvalid",
             "rowID":"{553FAA55-476C-4de0-9AF8-A71F9C3C951F}",
             "typeDef":"boolean",
@@ -7611,7 +7610,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Notes",
             "rowID":"{8B5B60A7-7350-470f-A299-158424806115}",
             "typeDef":"Memo",
@@ -7626,7 +7625,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{C450A224-D6E7-4225-B962-11B56D15FA4B}_BB",
             "farID":"{C450A224-D6E7-4225-B962-11B56D15FA4B}_AA",
             "visibility":"Public",
@@ -7636,7 +7635,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{257E61D3-67F4-474e-948C-9821C1E6E5ED}_AA",
             "farID":"{257E61D3-67F4-474e-948C-9821C1E6E5ED}_BB",
             "visibility":"Public",
@@ -7647,7 +7646,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{7E29FA8F-702D-4d2d-896B-7408E297451F}_AA",
             "farID":"{7E29FA8F-702D-4d2d-896B-7408E297451F}_BB",
             "visibility":"Public",
@@ -7657,7 +7656,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{A12BF2A1-2AC8-4fc4-9EF3-4FD1E0E43ED6}_BB",
             "farID":"{A12BF2A1-2AC8-4fc4-9EF3-4FD1E0E43ED6}_AA",
             "visibility":"Public",
@@ -7667,7 +7666,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{EBC4ED47-0116-49e5-B0E9-33561390D68D}_AA",
             "farID":"{EBC4ED47-0116-49e5-B0E9-33561390D68D}_BB",
             "visibility":"Public",
@@ -7677,7 +7676,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{4B71A153-88F8-494b-BDBD-419C1935EBE2}_AA",
             "farID":"{4B71A153-88F8-494b-BDBD-419C1935EBE2}_BB",
             "visibility":"Public",
@@ -7688,7 +7687,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{6390F01A-6A3C-4a06-8B27-C73BC2CCEF42}_BB",
             "farID":"{6390F01A-6A3C-4a06-8B27-C73BC2CCEF42}_AA",
             "visibility":"Public",
@@ -7700,7 +7699,7 @@
         ],
         "operations":[
           {
-            "@Type":"TMaxOperation",
+            "@Type":"Operation",
             "name":"validate",
             "rowID":"",
             "visibility":"Public",
@@ -7716,7 +7715,7 @@
         }
       },
       {
-        "@Type":"TMaxClass",
+        "@Type":"Class",
         "name":"WorkItem",
         "rowID":"{E45363CB-8B86-4f51-9DE3-E26CFE9EA8F6}",
         "caption":"WorkItem",
@@ -7728,7 +7727,7 @@
         "tableName":"wrkWorkItem",
         "attributes":[
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Triggertype",
             "rowID":"{D32C9FF5-10F8-42a6-A6FA-33AC46A2110A}",
             "typeDef":"String",
@@ -7740,7 +7739,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"context",
             "rowID":"{522E78A8-F4BD-4893-A895-4E4780088425}",
             "typeDef":"String",
@@ -7754,7 +7753,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Enabledtime",
             "rowID":"{B15178E7-B2BD-4a62-81A5-8BAAD039DDC9}",
             "typeDef":"Time",
@@ -7767,7 +7766,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"WorkItemStatus",
             "rowID":"{4FFE53AA-0661-4f22-9579-CBA40B662590}",
             "typeDef":"String",
@@ -7779,7 +7778,7 @@
             }
           },
           {
-            "@Type":"TMaxAttribute",
+            "@Type":"Attribute",
             "name":"Laststatustime",
             "rowID":"{C7BBC948-F45F-43a6-8C5E-035BD311C327}",
             "typeDef":"Time",
@@ -7794,7 +7793,7 @@
         ],
         "roles":[
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{E3F538B1-EC5C-484d-BF4E-FF6176BB3FE9}_AA",
             "farID":"{E3F538B1-EC5C-484d-BF4E-FF6176BB3FE9}_BB",
             "visibility":"Public",
@@ -7804,7 +7803,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{17FCEEE9-3998-428a-80EB-50474D64DE77}_BB",
             "farID":"{17FCEEE9-3998-428a-80EB-50474D64DE77}_AA",
             "visibility":"Public",
@@ -7815,7 +7814,7 @@
             }
           },
           {
-            "@Type":"TMaxRole",
+            "@Type":"Role",
             "rowID":"{AC488978-7E05-4ab4-9B90-1A6D1AF39EB4}_AA",
             "farID":"{AC488978-7E05-4ab4-9B90-1A6D1AF39EB4}_BB",
             "visibility":"Public",
@@ -7834,7 +7833,7 @@
     ]
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Workflow",
     "rowID":"{8D14A5FA-ED21-439e-A1F0-A5F1A013C6BF}",
     "module":"Workflow",
@@ -7843,7 +7842,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Workflow Actors",
     "rowID":"{2EDA563D-CB76-4f58-BC53-51175C8ADAB0}",
     "module":"Workflow Actors",
@@ -7852,7 +7851,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Workflow Use Cases",
     "rowID":"{3F788BB9-E574-48ac-9B27-E93ED480A3D1}",
     "module":"Workflow Use Cases",
@@ -7861,7 +7860,7 @@
     }
   },
   {
-    "@Type":"TMaxPackage",
+    "@Type":"Package",
     "name":"Workflow User Interface",
     "rowID":"{96EAAF09-8650-4b74-808E-6F68A528B030}",
     "module":"Workflow User Interface",
