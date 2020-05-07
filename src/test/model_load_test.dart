@@ -1,5 +1,6 @@
 import '../bin/mmodel.dart';
 import '../bin/writer.dart';
+import '../bin/target_platform.dart';
 import 'package:test/test.dart';
 
 void main() async {
@@ -13,6 +14,13 @@ void main() async {
     var writer = Writer('test.mustache',model:juModel);
   	var output = writer.render();
     print(output);
-    assert(output.length == 100);
+    assert(output.split('\n').length ==45);
+  });
+  test('Platform CSS Parser is working',(){
+    var fred = TargetPlatform('test_platform.cds');
+    assert(fred != null && fred.runtimeType.toString() == 'TargetPlatform');
+    var juModel = (MModel('jobuniverse.json'));
+    juModel.platform = fred;
+    
   });
 } // of main

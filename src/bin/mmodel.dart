@@ -1,5 +1,7 @@
 import 'dart:io';
 import 'dart:convert';
+import 'dart:collection';
+import 'target_platform.dart';
 
 
 void main() async {
@@ -16,6 +18,7 @@ class MModel {
   final fileName;
   MNode _root;
   MNode get root => _root; // readonly
+  TargetPlatform platform;
   dynamic operator [](String value) => _root[value];
   
   MModel(this.fileName,{String systemName}) {
@@ -43,19 +46,32 @@ class MModel {
   }
 } // of MModel
 
-class MNode {
-  Map<dynamic,dynamic> node;
-  MNode(this.node);
 
-  dynamic operator [](String value) => node[value];
-} // of MNode
+class MNode with MapMixin {
 
 
+  MNode(Map<dynamic,dynamic> orig):_items=orig;
+  final Map<dynamic,dynamic> _items;
+  @override bool containsKey(key) => true;
+  @override Iterable<String> get keys => _items.keys;
+  @override  dynamic operator [](key) {
+    if (_items.containsKey(key)) {
+      return _items[key];
+    }
+    // todo platform lookup based on class, id or key
+//    if ()
+//    var result = 
+    return '??? $key   ????';
+  } 
+  @override  void operator []=(key,value) => _items[key] = value;
+  @override void clear() => _items.clear();
+  @override dynamic remove(Object key) => _items.remove(key);
+}
 
 dynamic deepWrap(dynamic origin) {
   var result;
  if (origin is Map) {
-    var newMap = origin.map((k1,v1)=>MapEntry(k1, deepWrap(v1)));
+    var newMap = origin.map((k1,v1)=>MapEntry<String,dynamic> (k1.toString(), deepWrap(v1)));
     result = MNode(newMap);
   }else   if (origin is Iterable) {
    result = origin.map((n)=>deepWrap(n)).toList();

@@ -10,9 +10,9 @@ class Writer {
 
     Writer(String fileName, {this.model,this.platform}) {
       var contents  = File(fileName).readAsStringSync();
-      _template = Template(contents,name: fileName);
+      _template = Template(contents,name: fileName,lenient: false);
     }
 
-  String render() => _template.renderString(model.root.node);
+  String render() => _template.renderString(model.root);
 
 } // of Writer
