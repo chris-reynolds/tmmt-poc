@@ -1,12 +1,13 @@
-#Thoughts about tmmt
+# Thoughts about tmmt
 
-##Partitions of problem
+## Partitions of problem
 
-##Test-driven development
+## Test-driven development
 
-##Project Sizing
+## Project Sizing
 
-##Project Tracking
+## Project Tracking
+
 Lets use grep to track our tasks within the source-code.
 Maybe use a pattern in the dart files.
 
