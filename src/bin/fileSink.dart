@@ -8,13 +8,13 @@ void main() {
     config = loadYaml(File('fileSink.config.yaml').readAsStringSync());
     if (config.containsKey('extensions')) {
       YamlMap fred = config['extensions'];
-      fred.forEach((k,v) {
+      fred.forEach((k, v) {
         OutputFile.extensions[k] = v;
       });
     }
   }
 
-  OutputFile sink;
+  OutputFile? sink;
   print('started filesink');
   var line = stdin.readLineSync();
   while (line != null && line != 'zend') {
@@ -23,7 +23,7 @@ void main() {
         sink.close;
         sink = null;
       }
-      if (line.length>8) sink = OutputFile(line.substring(8).trim());
+      if (line.length > 8) sink = OutputFile(line.substring(8).trim());
     } else {
       sink?.add(line);
     }

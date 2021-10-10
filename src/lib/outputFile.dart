@@ -30,46 +30,42 @@ class OutputFile {
 //  static const OUTPUT_COMMAND = '${prefix}output';
   static Map<String, String> extensions = {'default': '//'};
   static const CUSTOM_CODE = 'customcode';
-  var commentStart;
-  var commentEnd;
-  var startMarker;
-  var endMarker;
-  String _contents;
+  String commentStart = '';
+  String commentEnd = '';
+  String startMarker = '';
+  String endMarker = '';
+  late String _contents;
   String fileName;
   bool backup;
-  String _prefix;
+  late final String _prefix;
 
-  OutputFile(this.fileName,
-      {this.backup = false, String contents = '', String prefix = '%'}) {
+  OutputFile(this.fileName, {this.backup = false, String contents = '', String prefix = '%'}) {
+    _prefix = prefix;
+    _contents = contents;
     var ext = path.extension(fileName).substring(1);
     if (!extensions.containsKey(ext)) {
       ext = 'default';
     }
-    var bits = extensions[ext].split('..');
+    var bits = extensions[ext]?.split('..') ?? ['//']; // default is double slash
     commentStart = bits[0];
     commentEnd = bits.length > 1 ? bits[1] : '';
-    _contents = contents;
-    _prefix = prefix;
-    startMarker =
-        '$commentStart                                  \'*** Start $CUSTOM_CODE';
-    endMarker =
-        '$commentStart                                  \'*** End $CUSTOM_CODE';
+
+    startMarker = '$commentStart                                  \'*** Start $CUSTOM_CODE';
+    endMarker = '$commentStart                                  \'*** End $CUSTOM_CODE';
   } // of constructor
 
   void add(String s) => _contents += s + '\n';
 
   Map<String, String> extractCodeBlocks(String allLines) {
-    var result = {};
+    var result = <String, String>{};
     var currentBlockName = '';
     allLines.split(endMarker).forEach((codeBlock) {
       var bits = codeBlock.split(startMarker);
       if (bits.length > 1) {
         var nameAndCode = bits[1];
         var delimPos = nameAndCode.indexOf('$commentEnd\n');
-        currentBlockName =
-            nameAndCode.substring(0, delimPos).trim().toLowerCase();
-        result[currentBlockName] =
-            nameAndCode.substring(delimPos + 1 + commentEnd.length);
+        currentBlockName = nameAndCode.substring(0, delimPos).trim().toLowerCase();
+        result[currentBlockName] = nameAndCode.substring(delimPos + 1 + commentEnd.length);
       }
     });
     return result;
@@ -85,8 +81,7 @@ class OutputFile {
       if (bits.length > 1) {
         var nameAndCode = bits[1];
         var delimPos = nameAndCode.indexOf('$commentEnd\n');
-        currentBlockName =
-            nameAndCode.substring(0, delimPos).trim().toLowerCase();
+        currentBlockName = nameAndCode.substring(0, delimPos).trim().toLowerCase();
         result += '$_prefix$CUSTOM_CODE $currentBlockName\n';
       }
     }
@@ -99,8 +94,7 @@ class OutputFile {
       //skip first section as it is the start of the file
       var delimPos = sections[i].indexOf('\n'); // get end of line
       var blockName = sections[i].substring(0, delimPos).trim().toLowerCase();
-      sections[i] =
-          writeBlock(blockName, blocks) + sections[i].substring(delimPos + 1);
+      sections[i] = writeBlock(blockName, blocks) + sections[i].substring(delimPos + 1);
     }
     return sections.join('');
   } // of expandCustomBlocks

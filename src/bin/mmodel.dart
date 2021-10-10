@@ -17,10 +17,10 @@ class MModel {
   final fileName;
   MNode _root = MNode({}); // empty node as default
   MNode get root => _root; // readonly
-  TargetPlatform platform;
+  TargetPlatform? platform;
   dynamic operator [](String value) => _root[value];
 
-  MModel(this.fileName, {String systemName}) {
+  MModel(this.fileName, {String? systemName}) {
     var rootPackage;
     assert(File(fileName).existsSync());
     var contents = File(fileName).readAsStringSync();
@@ -71,14 +71,13 @@ class MNode with MapMixin<String, dynamic> {
   @override
   void clear() => _items.clear();
   @override
-  dynamic remove(Object key) => _items.remove(key);
+  dynamic remove(dynamic key) => _items.remove(key);
 }
 
 dynamic deepWrap(dynamic origin) {
   var result;
   if (origin is Map) {
-    var newMap = origin.map(
-        (k1, v1) => MapEntry<String, dynamic>(k1.toString(), deepWrap(v1)));
+    var newMap = origin.map((k1, v1) => MapEntry<String, dynamic>(k1.toString(), deepWrap(v1)));
     result = MNode(newMap);
   } else if (origin is Iterable) {
     result = origin.map((n) => deepWrap(n)).toList();
