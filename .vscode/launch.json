@@ -7,8 +7,8 @@
 
         {
             "name": "Model Load Test",
-            "program": "model_load_test.dart",
-            "cwd": "src/test",
+            "program": "test/model_load_test.dart",
+            "cwd": "src",
             "request": "launch",
             "type": "dart"
         }
