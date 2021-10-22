@@ -3,16 +3,6 @@ import 'dart:convert';
 import 'dart:collection';
 import 'target_platform.dart';
 
-void main() async {
-  try {
-    var fred = (MModel('jobuniverse.json', systemName: 'blah'));
-    print(fred._root['name']);
-  } catch (ex) {
-    print('Failed: $ex');
-    exit(16);
-  }
-} // of main
-
 class MModel {
   final fileName;
   MNode _root = MNode({}); // empty node as default

@@ -7,7 +7,7 @@
 ./planning/poc_plan.md://TASK: Test.Integrate bug tracking with testing,M,W,2019-11-22
 ./planning/poc_plan.md://TASK: Review.Review tasks and program status in bin,M,W,2021-10-06
 ./planning/poc_plan.md://TASK: Review.Review tasks and functions in lib,M,W,2021-10-06
-./src/test/testUtils.dart://TASK: Create a file compariosn utility function,M,W,2021-10-06
+./src/test/testUtils.dart://TASK: Create a file comparison utility function,M,F,2021-10-06,2021-10-19,2021-10-23
 ./src/lib/outputFile.dart://TASK: Write contents to new file,S,T,2019-11-22,2019-12-29
 ./src/lib/outputFile.dart://TASK: Only write to existing file if contents have changed,S,T,2019-11-22,2019-12-29
 ./src/lib/outputFile.dart://TASK: Protect custom code blocks,M,T,2019-11-22,2019-12-29

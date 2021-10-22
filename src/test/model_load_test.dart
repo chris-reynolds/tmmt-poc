@@ -1,6 +1,6 @@
-import '../bin/mmodel.dart';
-import '../bin/writer.dart';
-import '../bin/target_platform.dart';
+import '../lib/mmodel.dart';
+import '../lib/writer.dart';
+import '../lib/target_platform.dart';
 import 'package:test/test.dart';
 
 void main() async {
