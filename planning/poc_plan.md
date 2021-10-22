@@ -11,12 +11,13 @@
 
 ## Testing Setup Tasks
 
-//TASK: Simulate Macro-process output for mc.pas,M,W,2021-10-06
-//TASK: Setup.Design regression execution env,M,W,2019-11-22
+//TASK: Test.Write a file-compare utility that reports an exact match or first line difference,M,W,2021-10-12
+//TASK: Test.Simulate Macro-process output for mc.pas,M,W,2021-10-06
+//TASK: Test.Design regression execution env,M,W,2019-11-22
 //TASK: Setup.Pm Tracking daily job,S,I,2019-11-22,2019-11-22
-//TASK: Setup.Integrate bug tracking with testing,M,W,2019-11-22
+//TASK: Test.Integrate bug tracking with testing,M,W,2019-11-22
 
 ## Restart-tasks
 
-//TASK: Review tasks and program status in bin,M,W,2021-10-06
-//TASK: Review tasks and functions in lib,M,W,2021-10-06
+//TASK: Review.Review tasks and program status in bin,M,W,2021-10-06
+//TASK: Review.Review tasks and functions in lib,M,W,2021-10-06
