@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:mustache_template/mustache_template.dart';
-import '../bin/mmodel.dart';
+import 'mmodel.dart';
 
 class Writer {
   final String? platform;
