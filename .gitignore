@@ -14,3 +14,4 @@ doc/api/
 planning/TaskList.csv
 planning/tmp_tasks.txt
 .idea/workspace.xml
+.DS_Store
