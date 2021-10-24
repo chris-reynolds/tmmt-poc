@@ -2,32 +2,43 @@ import 'dart:io';
 import 'package:yaml/yaml.dart';
 import 'package:poc/outputFile.dart';
 
-void main() {
+String CONFIG_FILE = 'fileSink.config.yaml';
+void main(List<String> args) {
+  bool testMode = false;
+  int testLine = 0;
   var config = {};
-  if (File('fileSink.config.yaml').existsSync()) {
-    config = loadYaml(File('fileSink.config.yaml').readAsStringSync());
+  if (File(CONFIG_FILE).existsSync()) {
+    config = loadYaml(File(CONFIG_FILE).readAsStringSync());
     if (config.containsKey('extensions')) {
       YamlMap fred = config['extensions'];
       fred.forEach((k, v) {
         OutputFile.extensions[k] = v;
       });
     }
+    testMode = config.containsKey('test');
   }
+  String? readLine() {
+    if (testMode) {
+      return testLine < args.length ? args[testLine++] : null;
+    } else
+      return stdin.readLineSync();
+  } // of readLine
 
   OutputFile? sink;
   print('started filesink');
-  var line = stdin.readLineSync();
-  while (line != null && line != 'zend') {
-    if (line.startsWith('%output')) {
+  var line = readLine();
+  while (line != null && line != '%zend') {
+    if (line.startsWith(OutputFile.OPEN_CODE)) {
       if (sink != null) {
         sink.close;
         sink = null;
       }
-      if (line.length > 8) sink = OutputFile(line.substring(8).trim());
+      if (line.length > OutputFile.OPEN_CODE.length + 1)
+        sink = OutputFile(line.substring(8).trim());
     } else {
       sink?.add(line);
     }
-    line = stdin.readLineSync();
+    line = readLine();
   } // of while
   sink?.close;
   print('ended filesink');

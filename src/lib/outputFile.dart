@@ -29,7 +29,8 @@ class OutputFile {
 //  static const PREFIX = '%';
 //  static const OUTPUT_COMMAND = '${prefix}output';
   static Map<String, String> extensions = {'default': '//'};
-  static const CUSTOM_CODE = 'customcode';
+  static String CUSTOM_CODE = 'customcode';
+  static String OPEN_CODE = '%output';
   String commentStart = '';
   String commentEnd = '';
   String startMarker = '';
@@ -42,7 +43,8 @@ class OutputFile {
   OutputFile(this.fileName, {this.backup = false, String contents = '', String prefix = '%'}) {
     _prefix = prefix;
     _contents = contents;
-    var ext = path.extension(fileName).substring(1);
+    var ext = path.extension(fileName);
+    if (ext.length > 0) ext = ext.substring(1); //trip dot
     if (!extensions.containsKey(ext)) {
       ext = 'default';
     }

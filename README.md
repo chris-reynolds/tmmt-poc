@@ -7,7 +7,7 @@ a set of very small simple set of processes.
 
 Essentially 4 phases
 
-Text->Model  Model->Model  Model->Text Text->File
+Text->Model : Model->Model : Model->Text : Text->File
 
 ## Multi-language
 

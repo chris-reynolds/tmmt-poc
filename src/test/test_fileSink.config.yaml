@@ -1,0 +1,14 @@
+# Custom code lines are always prefixed and can be optionally suffixed depending on the filetype
+# Each file extention can have a prefix and optional suffix separated by double dot (..)
+# Therefore, 
+#    html: <!--..-->
+# means that when FileSync is writing to a file ending in .html, then it will begin each custom code marker with <!--
+# and terminate each custom code marker with -->. This means that a syntax parser or browser with treat the marker as a comment.
+# If FileSync is writing to a file fred.blah and there is no 'blah' setting in this config file, then it will use
+# the default, which in the example below is start the custom code marker with '//' but no terminator.
+# This is a common comment marker for most common programming languages at the time of writing.    
+extensions:
+  default: //
+  html:  <!--..-->
+
+test:

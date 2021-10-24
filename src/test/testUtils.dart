@@ -12,6 +12,7 @@ testTodo(String name) {
 }
 
 class TestUtils_file {
+  static String directory = 'test/scratch';
   static bool check({
     required String sourceFilename,
   }) {
@@ -42,4 +43,16 @@ class TestUtils_file {
         return ''; // perfect match
     }
   } // of compare
+
+  static bool exists(String filename) => File(fullFilename(filename)).existsSync();
+  static int length(String filename) => File(fullFilename(filename)).lengthSync();
+  static DateTime lastModified(String filename) => File(fullFilename(filename)).lastModifiedSync();
+  static String contents(String filename) => File(fullFilename(filename)).readAsStringSync();
+  static fullFilename(String filename) =>
+      filename.contains('/') ? filename : '$directory/$filename';
+  static cleanDirectory() {
+    Directory(directory).createSync(recursive: true);
+    var scratchDirectory = Directory(directory);
+    for (var scratchFile in scratchDirectory.listSync()) scratchFile.deleteSync();
+  }
 } // of TestUtils_file
