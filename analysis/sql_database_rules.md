@@ -8,8 +8,6 @@
 6. Possible uniqueness constraints based on one or more columns.
 7. Sub-classes collapsed into a single table.
 8. Extra status column(s) for life-cycle support.
-9. Extra columns for performance accumulation. 
-
+9. Extra columns for performance accumulation.
 
 So our incoming model has classes, attributes, associations and other bits while our outgoing model has tables, columns, indexes, foreign-keys, constraints and other such database items.
-
