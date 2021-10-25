@@ -14,5 +14,6 @@ doc/api/
 planning/TaskList.csv
 planning/tmp_tasks.txt
 src/test/scratch
+src/coverage
 .idea/workspace.xml
 .DS_Store
