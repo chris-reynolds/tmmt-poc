@@ -3,8 +3,7 @@
 // date: 21st November 2019
 
 /// *  Purpose of this file
-///  * This takes a stream of text from stdin and
-///  * executes any embedded commands.
+///  * This takes the contents and writes it to an output file
 ///  * In general the text stream is written to the
 ///  * nominated file.
 ///  * Requirement Statments:

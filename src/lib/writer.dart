@@ -10,8 +10,8 @@
 /// processor.
 /// *
 
-//TASK: Load template from template parameter,S,W,2019-11-22
-//TASK: Build lines array with sources,M,W,2019-11-22
+//TASK: Load template from template parameter,S,F,2019-11-22,2021-10-26,2021-10-26
+//TASK: Build lines array with sources,M,F,2019-11-22,2021-10-26,2021-10-26
 //TASK: Process template with facade substitution,M,W,2019-11-22
 //TASK: Implement static file include,M,W,2019-11-22
 //TASK: Implement loop,L,W,2019-11-22
