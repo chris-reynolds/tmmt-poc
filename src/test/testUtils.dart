@@ -7,6 +7,8 @@ import 'package:test/test.dart';
 
 //TASK: Create a file comparison utility function,M,F,2021-10-06,2021-10-19,2021-10-23
 
+var TEST_DIR = 'test/testdata';
+
 testTodo(String name) {
   test(name, () {}, skip: 'TODO $name');
 }

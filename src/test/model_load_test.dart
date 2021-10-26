@@ -2,13 +2,18 @@ import '../lib/mmodel.dart';
 import '../lib/writer.dart';
 import '../lib/target_platform.dart';
 import 'package:test/test.dart';
+import 'testUtils.dart';
 
-var TEST_DIR = 'test/testdata';
 void main() async {
   test('Load Job universe model and make sure it has 42 classes', () {
     var juModel = (MModel('$TEST_DIR/jobuniverse.json'));
     var classes = juModel['classes'];
     assert(classes.length == 42);
+  });
+  test('Load Security model and make sure it has 7 classes', () {
+    var secModel = (MModel('$TEST_DIR/jobuniverse.json', systemName: 'Security'));
+    var classes = secModel['classes'];
+    assert(classes.length == 7);
   });
   test('Mustache is working', () {
     var juModel = (MModel('$TEST_DIR/jobuniverse.json'));
