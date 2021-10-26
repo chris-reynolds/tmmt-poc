@@ -3,10 +3,12 @@ import 'package:yaml/yaml.dart';
 import 'package:poc/outputFile.dart';
 
 String CONFIG_FILE = 'fileSink.config.yaml';
+bool testMode = false;
 void main(List<String> args) {
-  bool testMode = false;
   int testLine = 0;
   var config = {};
+  // if the last line is blank, it may be caused by the split;
+  if (args.length > 0 && args[args.length - 1] == '') args.removeAt(args.length - 1);
   if (File(CONFIG_FILE).existsSync()) {
     config = loadYaml(File(CONFIG_FILE).readAsStringSync());
     if (config.containsKey('extensions')) {
