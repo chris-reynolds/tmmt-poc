@@ -19,7 +19,7 @@ class MModel {
     var systems = [];
     for (var package in packages) {
       var packageType = (package['stereoType'] ?? '').toLowerCase();
-      if (packageType == 'product' || packageType == 'system') {
+      if (packageType == 'product' || packageType.contains('system')) {
         systems.add(package);
       }
     }
