@@ -1,6 +1,6 @@
 ./planning/poc_plan.md://TASK: Research.docker,M,W,2019-11-22
 ./planning/poc_plan.md://TASK: Research.TDD,M,W,2019-11-22
-./planning/poc_plan.md://TASK: Test.Write a file-compare utility that reports an exact match or first line difference,M,W,2021-10-12
+./planning/poc_plan.md://TASK: Test.Write a file-compare utility that reports an exact match or first line difference,M,F,2021-10-12,2021-10-19,2021-10-26
 ./planning/poc_plan.md://TASK: Test.Simulate Macro-process output for mc.pas,M,W,2021-10-06
 ./planning/poc_plan.md://TASK: Test.Design regression execution env,M,W,2019-11-22
 ./planning/poc_plan.md://TASK: Setup.Pm Tracking daily job,S,I,2019-11-22,2019-11-22
@@ -8,18 +8,17 @@
 ./planning/poc_plan.md://TASK: Review.Review tasks and program status in bin,M,W,2021-10-06
 ./planning/poc_plan.md://TASK: Review.Review tasks and functions in lib,M,W,2021-10-06
 ./src/test/testUtils.dart://TASK: Create a file comparison utility function,M,F,2021-10-06,2021-10-19,2021-10-23
+./src/test/maxim_test.dart://TASK: Mimic security database ddl,L,I,2021-10-26,2021-10-06
+./src/test/maxim_test.dart://TASK: Mimic jobuniverse ddl,M,W,2021-10-16
+./src/test/maxim_test.dart://TASK: Mimic security model,M,W,2021-10-16
+./src/test/maxim_test.dart://TASK: Mimic security controller,M,W,2021-10-16
+./src/test/maxim_test.dart://TASK: Mimic security view form,M,W,2021-10-16
 ./src/lib/outputFile.dart://TASK: Write contents to new file,S,T,2019-11-22,2019-12-29
 ./src/lib/outputFile.dart://TASK: Only write to existing file if contents have changed,S,T,2019-11-22,2019-12-29
 ./src/lib/outputFile.dart://TASK: Protect custom code blocks,M,T,2019-11-22,2019-12-29
 ./src/lib/outputFile.dart://TASK: Insert codegen blocks,M,W,2019-11-22
 ./src/lib/outputFile.dart://TASK: Allow custom code blocks to be initialised,M,W,2019-11-22
 ./src/lib/outputFile.dart://TASK: Backup original file if required,M,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Load template from template parameter,S,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Build lines array with sources,M,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Process template with facade substitution,M,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Implement static file include,M,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Implement loop,L,W,2019-11-22
-./src/lib/macroProcessor.dart://TASK: Implement macro,L,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Implment simple property bag,S,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Load Ruleset,M,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Implment rule set matching,M,W,2019-11-22
@@ -27,3 +26,9 @@
 ./src/lib/modelFacade.dart://TASK: Use data type defaults,M,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Implment String transformers,M,W,2019-11-22
 ./src/lib/modelFacade.dart://TASK: Multiple ruleset files,M,W,2019-11-22
+./src/lib/writer.dart://TASK: Load template from template parameter,S,F,2019-11-22,2021-10-26,2021-10-26
+./src/lib/writer.dart://TASK: Build lines array with sources,M,F,2019-11-22,2021-10-26,2021-10-26
+./src/lib/writer.dart://TASK: Process template with facade substitution,M,W,2019-11-22
+./src/lib/writer.dart://TASK: Implement static file include,M,W,2019-11-22
+./src/lib/writer.dart://TASK: Implement loop,L,W,2019-11-22
+./src/lib/writer.dart://TASK: Implement macro,L,W,2019-11-22
