@@ -28,7 +28,7 @@ class Writer {
 
   Writer(String fileName, {required this.model, this.platform}) {
     var contents = File(fileName).readAsStringSync();
-    _template = Template(contents, name: fileName, lenient: false);
+    _template = Template(contents, name: fileName, lenient: true);
   }
 
   String render() => _template.renderString(model.root);

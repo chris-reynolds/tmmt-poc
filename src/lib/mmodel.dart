@@ -2,6 +2,7 @@ import 'dart:io';
 import 'dart:convert';
 import 'dart:collection';
 import 'target_platform.dart';
+import 'StringUtils.dart';
 
 class MModel {
   final fileName;
@@ -47,14 +48,36 @@ class MNode with MapMixin<String, dynamic> {
   Iterable<String> get keys => _items.keys;
   @override
   dynamic operator [](key) {
-    if (_items.containsKey(key)) {
-      return _items[key];
+    String result = '';
+    if (!(key is String) || key == '') return '??? Empty key ???';
+    // separate out any text tranforms
+    var bits = key.split('|');
+    for (int i = 0; i < bits.length; i++) bits[i] = bits[i].trim();
+    if (!_items.containsKey(bits[0])) {
+      return '??? ${bits[0]}   ????';
     }
-    // todo platform lookup based on class, id or key
-//    if ()
-//    var result =
-    return '??? $key   ????';
-  }
+    // check if it is a list and return without transform
+    if (_items[bits[0]] is List) return _items[bits[0]];
+    result = _items[bits[0]];
+    for (int i = 1; i < bits.length; i++) {
+      switch (bits[i]) {
+        case '1u':
+          result = firstUpper(result);
+          break;
+        case '1l':
+          result = firstLower(result);
+          break;
+        case 'lc':
+          result = result.toLowerCase();
+          break;
+        case 's':
+          result = plural(result);
+          break;
+        default:
+      } // of switch
+    } // of transform for-loop
+    return result;
+  } // get property
 
   @override
   void operator []=(key, value) => _items[key] = value;
