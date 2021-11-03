@@ -10,6 +10,6 @@
 extensions:
   default: //
   html:  <!--..-->
-  sql: //
+  sql: --
 
 test:

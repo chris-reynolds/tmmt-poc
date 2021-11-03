@@ -1,9 +1,16 @@
--- DDL (Table) Generation for ??? Abbreviation   ????
+-- DDL (Table) Generation for Sec
 -- Target Database is mySql + Ruby on Rails
 
 --                                '*** Start Custom Code database connect
 --                                '*** End Custom Code
 
+-- Table ??? abbreviation   ????enhancements
+-- Table ??? abbreviation   ????rights
+-- Table ??? abbreviation   ????roles
+-- Table ??? abbreviation   ????users
+-- Table ??? abbreviation   ????user roles
+-- Table ??? abbreviation   ????webactions
+-- Table ??? abbreviation   ????workgroups
 -- Table secenhancements
   --   These are bug enhancements
 --  ' > CREATING - secenhancements ...'

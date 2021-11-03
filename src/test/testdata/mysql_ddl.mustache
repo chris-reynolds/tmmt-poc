@@ -1,10 +1,12 @@
 %output test/testdata/sec10_tables_poc.sql
--- DDL (Table) Generation for {{Abbreviation}}
+-- DDL (Table) Generation for {{abbreviation|1u}}
 -- Target Database is mySql + Ruby on Rails
 
---                                '*** Start Custom Code database connect
---                                '*** End Custom Code
+%customcode database connect
 
+{{#classes}}
+-- Table {{abbreviation|lc}}{{name|lc|s}}
+{{/classes}}
 -- Table secenhancements
   --   These are bug enhancements
 --  ' > CREATING - secenhancements ...'
