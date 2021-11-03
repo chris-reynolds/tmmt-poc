@@ -51,8 +51,8 @@ class OutputFile {
     commentStart = bits[0];
     commentEnd = bits.length > 1 ? bits[1] : '';
 
-    startMarker = '$commentStart                                  \'*** Start $CUSTOM_CODE';
-    endMarker = '$commentStart                                  \'*** End $CUSTOM_CODE';
+    startMarker = '$commentStart                                \'*** Start Custom Code';
+    endMarker = '$commentStart                                \'*** End Custom Code';
   } // of constructor
 
   void add(String s) => _contents += s + '\n';
@@ -101,9 +101,9 @@ class OutputFile {
   } // of expandCustomBlocks
 
   String writeBlock(String blockName, Map<String, String> blocks) {
-    var result = '$startMarker $blockName $commentEnd\n';
+    var result = '$startMarker $blockName$commentEnd\n';
     result += blocks[blockName.toLowerCase()] ?? ''; //blank if non-existant
-    result += '$endMarker $blockName $commentEnd\n';
+    result += '$endMarker$commentEnd\n';
     return result;
   }
 
