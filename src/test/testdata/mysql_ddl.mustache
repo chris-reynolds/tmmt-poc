@@ -5,7 +5,11 @@
 %customcode database connect
 
 {{#classes}}
--- Table {{abbreviation|lc}}{{name|lc|s}}
+-- Table {{tablename=abbreviation|lc}}{{name|lc|s}}
+  {{documentation| prefix }}
+--  ' > CREATING - {{tableName}} ...'
+DROP TABLE IF EXISTS {{tablename}} ;
+CREATE TABLE {{tablename}} (
 {{/classes}}
 -- Table secenhancements
   --   These are bug enhancements

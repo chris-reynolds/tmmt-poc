@@ -35,12 +35,16 @@ class MModel {
     if (rootPackage == null) {
       throw ("no system found ${fileName ?? ''}  ${systemName ?? ''}");
     }
-    _root = deepWrap(rootPackage);
+    _root = MNode({'root': true}).deepWrap(rootPackage);
   }
 } // of MModel
 
 class MNode with MapMixin<String, dynamic> {
-  MNode(Map<String, dynamic> orig) : _items = orig;
+  MNode? parent;
+//  List<MNode> _children = [];
+  MNode(Map<String, dynamic> orig) : _items = orig {
+//    parent?._children.add(this);
+  }
   final Map<String, dynamic> _items;
   @override
   bool containsKey(key) => true;
@@ -48,19 +52,29 @@ class MNode with MapMixin<String, dynamic> {
   Iterable<String> get keys => _items.keys;
   @override
   dynamic operator [](key) {
-    String result = '';
+    dynamic result = '';
     if (!(key is String) || key == '') return '??? Empty key ???';
     // separate out any text tranforms
     var bits = key.split('|');
-    for (int i = 0; i < bits.length; i++) bits[i] = bits[i].trim();
-    if (!_items.containsKey(bits[0])) {
-      return '??? ${bits[0]}   ????';
+    var fieldName = bits[0].trim();
+    var targetName = '';
+    var delimPos = fieldName.indexOf('=');
+    if (delimPos > 0) {
+      targetName = left(fieldName, delimPos);
+      fieldName = fieldName.substring(delimPos + 1);
+    }
+    //for (int i = 0; i < bits.length; i++) bits[i] = bits[i].trim();
+    if (_items.containsKey(fieldName))
+      result = _items[fieldName];
+    else
+      result = parentKey(fieldName);
+    if (result == '') {
+      return '??? ${fieldName}   ????';
     }
     // check if it is a list and return without transform
-    if (_items[bits[0]] is List) return _items[bits[0]];
-    result = _items[bits[0]];
+    if (result is List) return result;
     for (int i = 1; i < bits.length; i++) {
-      switch (bits[i]) {
+      switch (bits[i].trim().toLowerCase()) {
         case '1u':
           result = firstUpper(result);
           break;
@@ -73,29 +87,49 @@ class MNode with MapMixin<String, dynamic> {
         case 's':
           result = plural(result);
           break;
+        case 'prefix':
+          var lines = (result ?? '').split('\n');
+          result = '--  ' + lines.join('--  ');
+          break;
         default:
       } // of switch
     } // of transform for-loop
+    if (targetName.isNotEmpty) this._items[targetName] = result;
     return result;
   } // get property
 
+  dynamic parentKey(String key) => parent?[key] ?? parent?.parentKey(key);
+
   @override
-  void operator []=(key, value) => _items[key] = value;
+  void operator []=(key, value) => _items[key] = deepWrap(value);
   @override
   void clear() => _items.clear();
   @override
   dynamic remove(dynamic key) => _items.remove(key);
-}
 
-dynamic deepWrap(dynamic origin) {
-  var result;
-  if (origin is Map) {
-    var newMap = origin.map((k1, v1) => MapEntry<String, dynamic>(k1.toString(), deepWrap(v1)));
-    result = MNode(newMap);
-  } else if (origin is Iterable) {
-    result = origin.map((n) => deepWrap(n)).toList();
-  } else {
-    result = origin;
-  }
-  return result;
-}
+  dynamic deepWrap(dynamic origin) {
+    var result;
+    if (origin is Map) {
+      result = MNode({});
+      origin.forEach((k1, v1) {
+        result[k1.toString()] = v1;
+      });
+      result.parent = this;
+    } else if (origin is Iterable) {
+      result = <MNode>[];
+      origin.forEach((n) {
+        var newValue = deepWrap(n);
+        result.add(newValue);
+        if (newValue is MNode) {
+          newValue.parent = this;
+        }
+      });
+    } else {
+      result = origin;
+    }
+    return result;
+  } // of deepwrap
+} // of MNode
+
+
+

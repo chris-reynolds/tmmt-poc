@@ -4,13 +4,41 @@
 --                                '*** Start Custom Code database connect
 --                                '*** End Custom Code
 
--- Table ??? abbreviation   ????enhancements
--- Table ??? abbreviation   ????rights
--- Table ??? abbreviation   ????roles
--- Table ??? abbreviation   ????users
--- Table ??? abbreviation   ????user roles
--- Table ??? abbreviation   ????webactions
--- Table ??? abbreviation   ????workgroups
+-- Table secenhancements
+  --  These are bug enhancements
+--  ' > CREATING - secEnhancement ...'
+DROP TABLE IF EXISTS sec ;
+CREATE TABLE sec (
+-- Table secrights
+  --  
+--  ' > CREATING - secRight ...'
+DROP TABLE IF EXISTS sec ;
+CREATE TABLE sec (
+-- Table secroles
+  --  
+--  ' > CREATING - secRole ...'
+DROP TABLE IF EXISTS sec ;
+CREATE TABLE sec (
+-- Table secusers
+  --  
+--  ' > CREATING - secUser ...'
+DROP TABLE IF EXISTS sec ;
+CREATE TABLE sec (
+-- Table secuser roles
+  --  
+--  ' > CREATING - secUserRole ...'
+DROP TABLE IF EXISTS sec ;
+CREATE TABLE sec (
+-- Table secwebactions
+  --  This holds the information about each web action
+--  ' > CREATING - secWebAction ...'
+DROP TABLE IF EXISTS sec ;
+CREATE TABLE sec (
+-- Table secworkgroups
+  --  
+--  ' > CREATING - secWorkgroup ...'
+DROP TABLE IF EXISTS sec ;
+CREATE TABLE sec (
 -- Table secenhancements
   --   These are bug enhancements
 --  ' > CREATING - secenhancements ...'
