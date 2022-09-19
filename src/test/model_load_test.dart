@@ -11,7 +11,8 @@ void main() async {
     assert(classes.length == 42);
   });
   test('Load Security model and make sure it has 7 classes', () {
-    var secModel = (MModel('$TEST_DIR/jobuniverse.json', systemName: 'Security'));
+    var secModel =
+        (MModel('$TEST_DIR/jobuniverse.json', systemName: 'Security'));
     var classes = secModel['classes'];
     assert(classes.length == 7);
   });
@@ -29,29 +30,3 @@ void main() async {
     juModel.platform = fred;
   });
 } // of main
-
-
-// void main_test() {
-//   var source = '''
-// 	  {{# names }}
-//             <div>{{ lastname }}, {{ firstname }}z	  {{/ names }}
-// 	  {{^ names }}
-// 	    <div>No names.</div>
-// 	  {{/ names }}
-//     {{ address.line1 }}
-// 	  {{! I am a comment. }}
-// 	''';
-
-//   var template = Template(source, name: 'template-filename.html');
-
-//   var output = template.renderString({
-//     'names': [
-//       {'firstname': 'Greg', 'lastname': 'Lowe'},
-//       {'firstname': 'chris', 'lastname': 'reynolds'},
-//       {'firstname': 'Bob', 'lastname': 'Johnson'}
-//     ],
-//     'address': {'line1': 'Omokoroa Rd'}
-//   });
-
-//   print(output);
-// }

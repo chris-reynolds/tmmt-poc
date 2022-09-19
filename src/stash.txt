@@ -1,3 +1,15 @@
+from mysql_ddl.mustache
+
+{{#classes}}
+-- Table {{tablename=abbreviation|lc}}{{name|lc|s}}
+  {{documentation| prefix }}
+--  ' > CREATING - {{tableName}} ...'
+DROP TABLE IF EXISTS {{tablename}} ;
+CREATE TABLE {{tablename}} (
+{{/classes}}
+
+
+from mmodel.dart
 import 'dart:io';
 import 'dart:convert';
 import 'dart:collection';

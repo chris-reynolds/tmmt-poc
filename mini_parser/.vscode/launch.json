@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "mini_parser_test.dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "test/mini_parser_test.dart",
+
+        },
+        {
+            "name": "bin/mini_parser.dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/mini_parser.dart",
+            "args": ["test/myregext.txt"],
+        }
+    ]
+}

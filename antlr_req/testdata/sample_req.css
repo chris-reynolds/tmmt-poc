@@ -1,0 +1,14 @@
+.Attribute[name$='Date'] {
+    dataType: 'Date',
+}
+.Attribute[name$='Amount'] {
+    dataType: 'Float',
+}
+.Attribute[name$='Count'] {
+    dataType: 'Integer',
+}
+.Attribute[name='Name']
+.Attribute {
+    dataType: "String",
+    maxWidth: 30,
+}
