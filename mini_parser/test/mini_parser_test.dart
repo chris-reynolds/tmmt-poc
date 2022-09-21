@@ -35,6 +35,12 @@ void main() {
   const rxOptSpace = r'\s*';
   const rxOptParameters = r'(\(\s*(?<proplist>[^\)]+)\s*\))?';
   const rxName = r'(?<name>(\w+))';
+  const rxQuotedString = r'\"[^\"\n]*\"';
+  const rxUnQuoted = r'\w+';
+  const rxValue = '(?<val>($rxQuotedString|$rxUnQuoted))';
+  const rxSlackComma = r'\s*\,\s*';
+  const rxSlackAssign = r'\s*\=\s*';
+  const rxNameValue = '$rxName$rxSlackAssign$rxValue';
   test('Static3', () {
     String myReg = '$rxKeyword' r'(?:\s*\:)';
     String myNameProp = '$rxName$rxOptSpace$rxOptParameters';
@@ -43,6 +49,9 @@ void main() {
         RegExp(myReg, multiLine: true, dotAll: true, caseSensitive: false);
     var regNameProp =
         RegExp(myNameProp, multiLine: true, dotAll: true, caseSensitive: false);
+    var regNameValue = RegExp(rxNameValue,
+        multiLine: true, dotAll: true, caseSensitive: false);
+
     int uptoChar = 0;
     String keyword = '';
     List<dynamic> myList = [];
@@ -71,6 +80,16 @@ void main() {
           for (final nm in m.groupNames) {
             print('group is $nm = ${m.namedGroup(nm)}');
             item[nm] = m.namedGroup(nm) ?? '';
+            if (nm == 'proplist' && item[nm] != '') {
+              List<dynamic> myProps = [];
+              var nameval = regNameValue.allMatches(m.namedGroup(nm) ?? '');
+              for (final prop in nameval) {
+                var aname = prop.namedGroup('name');
+                var aval = prop.namedGroup('val');
+                myProps.add({'n': aname, 'v': aval});
+              }
+              item['proplist'] = myProps.toString();
+            }
           }
         }
       }
