@@ -22,6 +22,16 @@ const STATIC3 = '''
                Tasks]  
 ''';
 
+String _between(String source, String openDelim, String closeDelim) {
+  final int openDelimPos = source.indexOf(openDelim);
+  final int closeDelimPos = source.lastIndexOf(closeDelim);
+  if (openDelimPos >= 0 && closeDelimPos >= 0 && openDelimPos < closeDelimPos) {
+    return source.substring(openDelimPos + 1, closeDelimPos).trim();
+  } else {
+    throw Exception('Missing delimiters for $source');
+  }
+} // of _between
+
 void main() {
   // Map<String, Object> model;
   test('Static1', () {
@@ -72,7 +82,10 @@ void main() {
     myList.add({'keyword': keyword, 'value': lastValue});
     for (var item in myList) {
       if ((item['value'] as String).startsWith('[')) {
-        // process array
+        var arrayContents = _between(item['value'] as String, '[', ']');
+
+        matches = regNameProp.allMatches(arrayContents);
+        print('AAAAAAAAAAAAA $arrayContents BBBBBBBBBBBBBB ${matches.length}');
       } else {
         // process single
         matches = regNameProp.allMatches(item['value']);
