@@ -1,4 +1,0 @@
-#!/bin/bash -li
-antlr4 TmParser.g4
-javac TmParser*.java
-grun TmParser file -$1 <../testdata/a1.md
